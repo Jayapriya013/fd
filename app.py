@@ -8,7 +8,7 @@ st.title("✈️ Flight Arrival Delay Predictor (Dataset-Based)")
 # Load dataset
 @st.cache_data
 def load_data():
-    return pd.read_csv("https://github.com/Jayapriya013/fd/blob/main/final_airline_times_HHMM%20(2).csv")
+    return pd.read_csv("https://github.com/Jayapriya013/fd/blob/main/final_airline_times_HHMM(2).csv")
 df = load_data()
 
 # User Inputs
