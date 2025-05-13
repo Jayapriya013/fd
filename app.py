@@ -8,7 +8,8 @@ st.title("✈️ Flight Arrival Delay Predictor (Dataset-Based)")
 # Load dataset
 @st.cache_data
 def load_data():
-    return pd.read_csvimport pandas as pd
+    return pd.read_csv
+    import pandas as pd
 import streamlit as st
 
 # Correct raw URL from your GitHub
