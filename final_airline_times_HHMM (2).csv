@@ -1,0 +1,678 @@
+year,month,carrier,carrier_name,airport,airport_name,arr_flights,arr_del15,carrier_ct,weather_ct,nas_ct,carrier_delay,weather_delay,origin,destination,scheduled_departure_time,actual_departure_time,scheduled_arrival_time,actual_arrival_time,flight_status
+2020,12,9E,Endeavor Air Inc.,BNA,"Nashville, TN: Nashville International",2.0,1.0,0.0,0.0,1.0,0.0,0.0,SFO,DFW,18:44,18:48,20:37,21:04,delayed
+2020,12,9E,Endeavor Air Inc.,BUF,"Buffalo, NY: Buffalo Niagara International",14.0,1.0,1.0,0.0,0.0,18.0,0.0,LAX,SFO,09:23,09:23,10:51,10:54,on-time
+2020,12,9E,Endeavor Air Inc.,CID,"Cedar Rapids/Iowa City, IA: The Eastern Iowa",11.0,0.0,0.0,0.0,0.0,0.0,0.0,PHX,DEN,12:29,12:40,14:13,14:42,delayed
+2020,12,9E,Endeavor Air Inc.,CLT,"Charlotte, NC: Charlotte Douglas International",42.0,1.0,1.0,0.0,0.0,64.0,0.0,DFW,SFO,21:38,21:41,23:10,23:30,delayed
+2020,12,9E,Endeavor Air Inc.,FAR,"Fargo, ND: Hector International",91.0,8.0,4.0,0.0,4.0,137.0,0.0,SEA,ATL,03:43,03:54,04:51,05:19,delayed
+2020,12,9E,Endeavor Air Inc.,IAD,"Washington, DC: Washington Dulles International",12.0,1.0,1.0,0.0,0.0,44.0,0.0,ATL,DFW,09:31,09:32,10:48,11:02,on-time
+2020,12,9E,Endeavor Air Inc.,MCI,"Kansas City, MO: Kansas City International",16.0,0.0,0.0,0.0,0.0,0.0,0.0,MIA,LAX,21:06,21:12,22:52,23:06,on-time
+2020,12,9E,Endeavor Air Inc.,MIA,"Miami, FL: Miami International",4.0,0.0,0.0,0.0,0.0,0.0,0.0,SFO,ORD,19:23,19:38,20:59,21:00,on-time
+2020,12,9E,Endeavor Air Inc.,MKE,"Milwaukee, WI: General Mitchell International",16.0,3.0,1.0,0.0,2.0,16.0,0.0,DFW,ORD,08:53,08:59,10:15,10:35,delayed
+2020,12,9E,Endeavor Air Inc.,MSY,"New Orleans, LA: Louis Armstrong New Orleans International",1.0,0.0,0.0,0.0,0.0,0.0,0.0,MIA,SEA,07:25,07:31,08:43,09:07,delayed
+2020,12,9E,Endeavor Air Inc.,MYR,"Myrtle Beach, SC: Myrtle Beach International",119.0,6.0,3.0,0.0,3.0,335.0,0.0,MIA,PHX,00:14,00:23,01:24,01:38,on-time
+2020,12,9E,Endeavor Air Inc.,ORD,"Chicago, IL: Chicago O'Hare International",72.0,4.0,0.0,0.0,4.0,0.0,0.0,LAX,ATL,09:56,09:57,11:51,12:14,delayed
+2020,12,9E,Endeavor Air Inc.,ROA,"Roanoke, VA: Roanoke Blacksburg Regional Woodrum Field",83.0,4.0,3.0,1.0,0.0,71.0,136.0,SEA,JFK,07:17,07:17,09:14,09:30,delayed
+2020,12,9E,Endeavor Air Inc.,SRQ,"Sarasota/Bradenton, FL: Sarasota/Bradenton International",14.0,2.0,0.0,0.0,2.0,0.0,0.0,DFW,PHX,22:32,22:41,00:05,00:17,on-time
+2020,12,AA,American Airlines Inc.,BUF,"Buffalo, NY: Buffalo Niagara International",2.0,0.0,0.0,0.0,0.0,0.0,0.0,ATL,LAX,03:19,03:29,04:28,04:38,on-time
+2020,12,AA,American Airlines Inc.,HDN,"Hayden, CO: Yampa Valley",26.0,6.0,1.0,0.0,5.0,34.0,0.0,JFK,DFW,23:19,23:33,01:17,01:37,delayed
+2020,12,AA,American Airlines Inc.,ILM,"Wilmington, NC: Wilmington International",31.0,2.0,2.0,0.0,0.0,53.0,0.0,MIA,DEN,12:34,12:47,13:57,14:03,on-time
+2020,12,AA,American Airlines Inc.,LIH,"Lihue, HI: Lihue Airport",13.0,0.0,0.0,0.0,0.0,0.0,0.0,ATL,LAX,09:43,09:47,11:30,11:52,delayed
+2020,12,AA,American Airlines Inc.,MCI,"Kansas City, MO: Kansas City International",2.0,0.0,0.0,0.0,0.0,0.0,0.0,DEN,SEA,11:26,11:37,13:13,13:17,on-time
+2020,12,AA,American Airlines Inc.,MKE,"Milwaukee, WI: General Mitchell International",7.0,0.0,0.0,0.0,0.0,0.0,0.0,DEN,LAX,05:32,05:44,07:09,07:14,on-time
+2020,12,AA,American Airlines Inc.,MYR,"Myrtle Beach, SC: Myrtle Beach International",16.0,0.0,0.0,0.0,0.0,0.0,0.0,SEA,SFO,22:32,22:41,23:36,00:01,delayed
+2020,12,AA,American Airlines Inc.,OMA,"Omaha, NE: Eppley Airfield",14.0,0.0,0.0,0.0,0.0,0.0,0.0,DFW,JFK,05:07,05:14,07:01,07:12,on-time
+2020,12,AA,American Airlines Inc.,PVD,"Providence, RI: Theodore Francis Green State",13.0,1.0,0.0,0.0,1.0,0.0,0.0,DEN,SFO,04:51,04:55,06:18,06:43,delayed
+2020,12,AA,American Airlines Inc.,SAV,"Savannah, GA: Savannah/Hilton Head International",1.0,0.0,0.0,0.0,0.0,0.0,0.0,JFK,LAX,19:03,19:14,20:30,20:56,delayed
+2020,12,AS,Alaska Airlines Inc.,ATL,"Atlanta, GA: Hartsfield-Jackson Atlanta International",31.0,2.0,0.0,0.0,2.0,0.0,0.0,DEN,MIA,08:20,08:26,09:42,09:58,delayed
+2020,12,AS,Alaska Airlines Inc.,BNA,"Nashville, TN: Nashville International",47.0,0.0,0.0,0.0,0.0,0.0,0.0,MIA,ATL,22:14,22:21,23:14,23:35,delayed
+2020,12,AS,Alaska Airlines Inc.,BOI,"Boise, ID: Boise Air Terminal",61.0,1.0,0.0,1.0,0.0,0.0,36.0,JFK,SEA,00:52,01:04,02:10,02:18,on-time
+2020,12,AS,Alaska Airlines Inc.,BUR,"Burbank, CA: Bob Hope",61.0,2.0,1.0,0.0,1.0,17.0,0.0,PHX,JFK,04:56,05:03,06:19,06:45,delayed
+2020,12,AS,Alaska Airlines Inc.,CMH,"Columbus, OH: John Glenn Columbus International",20.0,0.0,0.0,0.0,0.0,0.0,0.0,PHX,LAX,13:29,13:31,14:52,15:05,on-time
+2020,12,AS,Alaska Airlines Inc.,DAL,"Dallas, TX: Dallas Love Field",31.0,0.0,0.0,0.0,0.0,0.0,0.0,MIA,SFO,14:20,14:31,15:50,16:08,delayed
+2020,12,AS,Alaska Airlines Inc.,EWR,"Newark, NJ: Newark Liberty International",79.0,2.0,0.0,0.0,1.0,0.0,0.0,SFO,SEA,01:41,01:45,03:39,03:53,on-time
+2020,12,AS,Alaska Airlines Inc.,IAH,"Houston, TX: George Bush Intercontinental/Houston",31.0,1.0,0.0,0.0,0.0,0.0,0.0,LAX,DEN,20:01,20:13,21:51,22:11,delayed
+2020,12,AS,Alaska Airlines Inc.,LIH,"Lihue, HI: Lihue Airport",50.0,0.0,0.0,0.0,0.0,0.0,0.0,DFW,SFO,08:50,09:01,10:15,10:30,on-time
+2020,12,AS,Alaska Airlines Inc.,MKE,"Milwaukee, WI: General Mitchell International",29.0,0.0,0.0,0.0,0.0,0.0,0.0,JFK,SFO,09:17,09:23,11:05,11:18,on-time
+2020,12,AS,Alaska Airlines Inc.,MSP,"Minneapolis, MN: Minneapolis-St Paul International",31.0,1.0,0.0,0.0,1.0,0.0,0.0,ORD,DEN,12:31,12:38,13:32,14:01,delayed
+2020,12,AS,Alaska Airlines Inc.,MSY,"New Orleans, LA: Louis Armstrong New Orleans International",31.0,0.0,0.0,0.0,0.0,0.0,0.0,SEA,ATL,20:48,20:57,22:33,22:40,on-time
+2020,12,AS,Alaska Airlines Inc.,PIT,"Pittsburgh, PA: Pittsburgh International",24.0,0.0,0.0,0.0,0.0,0.0,0.0,JFK,MIA,03:02,03:16,04:29,04:50,delayed
+2020,12,AS,Alaska Airlines Inc.,RDU,"Raleigh/Durham, NC: Raleigh-Durham International",31.0,0.0,0.0,0.0,0.0,0.0,0.0,JFK,LAX,06:06,06:20,07:49,08:14,delayed
+2020,12,AS,Alaska Airlines Inc.,RSW,"Fort Myers, FL: Southwest Florida International",35.0,1.0,0.0,0.0,0.0,0.0,0.0,JFK,SFO,08:26,08:26,10:23,10:33,on-time
+2020,12,AS,Alaska Airlines Inc.,STL,"St. Louis, MO: St Louis Lambert International",31.0,0.0,0.0,0.0,0.0,0.0,0.0,DFW,SFO,21:52,21:53,22:54,22:56,on-time
+2020,12,AS,Alaska Airlines Inc.,TUS,"Tucson, AZ: Tucson International",31.0,1.0,1.0,0.0,0.0,39.0,0.0,JFK,ORD,09:49,10:01,11:10,11:40,delayed
+2020,12,B6,JetBlue Airways,RNO,"Reno, NV: Reno/Tahoe International",21.0,2.0,1.0,0.0,1.0,165.0,0.0,LAX,ORD,02:23,02:23,04:22,04:27,on-time
+2020,12,DL,Delta Air Lines Inc.,CAE,"Columbia, SC: Columbia Metropolitan",1.0,0.0,0.0,0.0,0.0,0.0,0.0,ATL,ORD,22:33,22:38,00:24,00:42,delayed
+2020,12,DL,Delta Air Lines Inc.,EGE,"Eagle, CO: Eagle County Regional",14.0,4.0,0.0,0.0,4.0,0.0,0.0,ATL,JFK,20:51,20:54,22:42,23:08,delayed
+2020,12,DL,Delta Air Lines Inc.,GSO,"Greensboro/High Point, NC: Piedmont Triad International",18.0,3.0,1.0,0.0,0.0,20.0,0.0,DFW,PHX,18:56,18:58,20:14,20:41,delayed
+2020,12,DL,Delta Air Lines Inc.,GSP,"Greer, SC: Greenville-Spartanburg International",33.0,0.0,0.0,0.0,0.0,0.0,0.0,DEN,SFO,08:24,08:38,10:16,10:42,delayed
+2020,12,DL,Delta Air Lines Inc.,HOU,"Houston, TX: William P Hobby",14.0,0.0,0.0,0.0,0.0,0.0,0.0,JFK,SEA,01:28,01:39,02:31,02:48,delayed
+2020,12,DL,Delta Air Lines Inc.,ICT,"Wichita, KS: Wichita Dwight D Eisenhower National",2.0,0.0,0.0,0.0,0.0,0.0,0.0,MIA,ORD,20:31,20:45,21:43,21:57,on-time
+2020,12,DL,Delta Air Lines Inc.,OAK,"Oakland, CA: Metropolitan Oakland International",11.0,0.0,0.0,0.0,0.0,0.0,0.0,LAX,DFW,11:52,12:01,13:24,13:49,delayed
+2020,12,DL,Delta Air Lines Inc.,OKC,"Oklahoma City, OK: Will Rogers World",34.0,1.0,1.0,0.0,0.0,15.0,0.0,DEN,JFK,08:39,08:41,09:52,10:00,on-time
+2020,12,DL,Delta Air Lines Inc.,SJC,"San Jose, CA: Norman Y. Mineta San Jose International",30.0,1.0,0.0,0.0,1.0,0.0,0.0,ATL,SFO,19:39,19:54,21:09,21:11,on-time
+2020,12,DL,Delta Air Lines Inc.,STX,"Christiansted, VI: Henry E. Rohlsen",20.0,2.0,2.0,0.0,0.0,208.0,0.0,ORD,SEA,00:07,00:07,01:32,01:40,on-time
+2020,12,DL,Delta Air Lines Inc.,SYR,"Syracuse, NY: Syracuse Hancock International",32.0,0.0,0.0,0.0,0.0,0.0,0.0,DFW,SFO,12:56,13:00,14:47,14:57,on-time
+2020,12,DL,Delta Air Lines Inc.,TUL,"Tulsa, OK: Tulsa International",3.0,0.0,0.0,0.0,0.0,0.0,0.0,SEA,PHX,17:30,17:33,18:31,19:00,delayed
+2020,12,F9,Frontier Airlines Inc.,ALB,"Albany, NY: Albany International",2.0,0.0,0.0,0.0,0.0,0.0,0.0,SEA,JFK,13:17,13:27,15:16,15:29,on-time
+2020,12,F9,Frontier Airlines Inc.,BDL,"Hartford, CT: Bradley International",12.0,0.0,0.0,0.0,0.0,0.0,0.0,JFK,DEN,11:39,11:46,13:16,13:40,delayed
+2020,12,F9,Frontier Airlines Inc.,BIS,"Bismarck/Mandan, ND: Bismarck Municipal",4.0,0.0,0.0,0.0,0.0,0.0,0.0,PHX,DFW,22:05,22:16,23:10,23:13,on-time
+2020,12,F9,Frontier Airlines Inc.,BMI,"Bloomington/Normal, IL: Central Il Regional Airport at Bloomington",8.0,0.0,0.0,0.0,0.0,0.0,0.0,SEA,ATL,21:25,21:25,22:40,22:56,delayed
+2020,12,F9,Frontier Airlines Inc.,BTV,"Burlington, VT: Burlington International",1.0,1.0,1.0,0.0,0.0,36.0,0.0,DEN,ATL,16:21,16:24,17:32,17:47,on-time
+2020,12,F9,Frontier Airlines Inc.,FSD,"Sioux Falls, SD: Joe Foss Field",11.0,0.0,0.0,0.0,0.0,0.0,0.0,PHX,SEA,22:11,22:23,00:00,00:11,on-time
+2020,12,F9,Frontier Airlines Inc.,GRB,"Green Bay, WI: Green Bay Austin Straubel International",6.0,0.0,0.0,0.0,0.0,0.0,0.0,DEN,ATL,20:05,20:09,21:35,21:46,on-time
+2020,12,F9,Frontier Airlines Inc.,GRR,"Grand Rapids, MI: Gerald R. Ford International",21.0,1.0,0.0,0.0,0.0,0.0,0.0,MIA,DFW,09:25,09:27,10:53,11:23,delayed
+2020,12,F9,Frontier Airlines Inc.,HRL,"Harlingen/San Benito, TX: Valley International",4.0,1.0,0.0,0.0,1.0,0.0,0.0,MIA,ATL,23:27,23:40,00:47,01:11,delayed
+2020,12,F9,Frontier Airlines Inc.,HSV,"Huntsville, AL: Huntsville International-Carl T Jones Field",7.0,0.0,0.0,0.0,0.0,0.0,0.0,LAX,DFW,11:12,11:16,12:21,12:29,on-time
+2020,12,F9,Frontier Airlines Inc.,IAD,"Washington, DC: Washington Dulles International",6.0,0.0,0.0,0.0,0.0,0.0,0.0,DEN,MIA,02:31,02:43,04:03,04:20,delayed
+2020,12,F9,Frontier Airlines Inc.,IND,"Indianapolis, IN: Indianapolis International",32.0,2.0,0.0,0.0,2.0,0.0,0.0,MIA,ATL,22:58,23:03,00:31,00:48,delayed
+2020,12,F9,Frontier Airlines Inc.,JAX,"Jacksonville, FL: Jacksonville International",10.0,0.0,0.0,0.0,0.0,0.0,0.0,SFO,LAX,03:25,03:25,05:14,05:17,on-time
+2020,12,F9,Frontier Airlines Inc.,MDT,"Harrisburg, PA: Harrisburg International",5.0,0.0,0.0,0.0,0.0,0.0,0.0,SEA,SFO,05:42,05:42,07:04,07:04,on-time
+2020,12,F9,Frontier Airlines Inc.,MYR,"Myrtle Beach, SC: Myrtle Beach International",1.0,0.0,0.0,0.0,0.0,0.0,0.0,DEN,ATL,07:57,07:58,09:33,09:59,delayed
+2020,12,F9,Frontier Airlines Inc.,OKC,"Oklahoma City, OK: Will Rogers World",17.0,0.0,0.0,0.0,0.0,0.0,0.0,SFO,DEN,11:21,11:22,13:01,13:31,delayed
+2020,12,F9,Frontier Airlines Inc.,ONT,"Ontario, CA: Ontario International",17.0,0.0,0.0,0.0,0.0,0.0,0.0,SEA,SFO,22:00,22:09,23:24,23:36,on-time
+2020,12,F9,Frontier Airlines Inc.,ORF,"Norfolk, VA: Norfolk International",19.0,4.0,1.0,0.0,2.0,19.0,0.0,MIA,PHX,16:17,16:19,17:17,17:39,delayed
+2020,12,F9,Frontier Airlines Inc.,PIT,"Pittsburgh, PA: Pittsburgh International",1.0,0.0,0.0,0.0,0.0,0.0,0.0,SFO,DFW,09:33,09:42,10:53,11:07,on-time
+2020,12,F9,Frontier Airlines Inc.,PNS,"Pensacola, FL: Pensacola International",23.0,3.0,0.0,0.0,3.0,0.0,0.0,SEA,SFO,21:37,21:42,22:42,22:58,delayed
+2020,12,F9,Frontier Airlines Inc.,RDU,"Raleigh/Durham, NC: Raleigh-Durham International",60.0,3.0,2.0,0.0,1.0,64.0,0.0,SEA,LAX,02:52,03:02,03:56,04:14,delayed
+2020,12,F9,Frontier Airlines Inc.,RNO,"Reno, NV: Reno/Tahoe International",15.0,0.0,0.0,0.0,0.0,0.0,0.0,ORD,JFK,09:02,09:08,10:18,10:22,on-time
+2020,12,F9,Frontier Airlines Inc.,SAT,"San Antonio, TX: San Antonio International",43.0,2.0,2.0,0.0,0.0,51.0,0.0,LAX,JFK,21:41,21:48,23:41,00:09,delayed
+2020,12,F9,Frontier Airlines Inc.,SAV,"Savannah, GA: Savannah/Hilton Head International",3.0,1.0,0.0,0.0,0.0,0.0,0.0,DEN,ORD,11:52,12:01,13:23,13:49,delayed
+2020,12,F9,Frontier Airlines Inc.,SDF,"Louisville, KY: Louisville Muhammad Ali International",8.0,1.0,0.0,0.0,1.0,0.0,0.0,SEA,LAX,12:09,12:11,14:00,14:18,delayed
+2020,12,F9,Frontier Airlines Inc.,SJC,"San Jose, CA: Norman Y. Mineta San Jose International",14.0,0.0,0.0,0.0,0.0,0.0,0.0,MIA,DEN,14:11,14:17,15:46,16:14,delayed
+2020,12,F9,Frontier Airlines Inc.,SMF,"Sacramento, CA: Sacramento International",40.0,2.0,1.0,1.0,0.0,24.0,25.0,ORD,JFK,15:10,15:18,16:31,16:50,delayed
+2020,12,F9,Frontier Airlines Inc.,SRQ,"Sarasota/Bradenton, FL: Sarasota/Bradenton International",4.0,0.0,0.0,0.0,0.0,0.0,0.0,SFO,PHX,07:30,07:35,09:15,09:16,on-time
+2020,12,F9,Frontier Airlines Inc.,SYR,"Syracuse, NY: Syracuse Hancock International",28.0,3.0,1.0,0.0,0.0,43.0,0.0,ORD,LAX,19:54,20:04,21:04,21:26,delayed
+2020,12,F9,Frontier Airlines Inc.,TUL,"Tulsa, OK: Tulsa International",7.0,0.0,0.0,0.0,0.0,0.0,0.0,JFK,LAX,06:00,06:12,07:09,07:37,delayed
+2020,12,F9,Frontier Airlines Inc.,TUS,"Tucson, AZ: Tucson International",5.0,0.0,0.0,0.0,0.0,0.0,0.0,SFO,LAX,01:28,01:34,03:16,03:43,delayed
+2020,12,F9,Frontier Airlines Inc.,TYS,"Knoxville, TN: McGhee Tyson",9.0,0.0,0.0,0.0,0.0,0.0,0.0,JFK,PHX,16:24,16:29,17:54,18:22,delayed
+2020,12,F9,Frontier Airlines Inc.,XNA,"Fayetteville, AR: Northwest Arkansas Regional",7.0,1.0,1.0,0.0,0.0,31.0,0.0,ATL,SFO,09:21,09:35,10:25,10:40,on-time
+2020,12,G4,Allegiant Air,BGR,"Bangor, ME: Bangor International",25.0,1.0,0.0,1.0,0.0,0.0,29.0,JFK,SEA,06:10,06:21,08:10,08:40,delayed
+2020,12,G4,Allegiant Air,BIL,"Billings, MT: Billings Logan International",26.0,2.0,1.0,0.0,1.0,434.0,0.0,LAX,DEN,02:49,03:03,04:03,04:27,delayed
+2020,12,G4,Allegiant Air,BMI,"Bloomington/Normal, IL: Central Il Regional Airport at Bloomington",22.0,2.0,1.0,0.0,1.0,73.0,0.0,LAX,ORD,16:31,16:41,18:13,18:16,on-time
+2020,12,G4,Allegiant Air,BOS,"Boston, MA: Logan International",17.0,1.0,0.0,0.0,1.0,0.0,0.0,SFO,PHX,19:06,19:17,20:47,21:01,on-time
+2020,12,G4,Allegiant Air,CHA,"Chattanooga, TN: Lovell Field",21.0,4.0,0.0,0.0,0.0,0.0,0.0,MIA,DFW,18:33,18:48,20:23,20:39,delayed
+2020,12,G4,Allegiant Air,CKB,"Clarksburg/Fairmont, WV: North Central West Virginia",11.0,0.0,0.0,0.0,0.0,0.0,0.0,ORD,SFO,21:37,21:47,22:46,22:59,on-time
+2020,12,G4,Allegiant Air,DAY,"Dayton, OH: James M Cox/Dayton International",17.0,1.0,0.0,0.0,0.0,0.0,0.0,MIA,ORD,14:41,14:49,15:42,16:03,delayed
+2020,12,G4,Allegiant Air,ELP,"El Paso, TX: El Paso International",10.0,0.0,0.0,0.0,0.0,0.0,0.0,PHX,SEA,11:56,12:03,13:39,14:08,delayed
+2020,12,G4,Allegiant Air,EUG,"Eugene, OR: Mahlon Sweet Field",45.0,8.0,3.0,0.0,5.0,296.0,0.0,SFO,SEA,22:53,23:02,00:05,00:28,delayed
+2020,12,G4,Allegiant Air,EVV,"Evansville, IN: Evansville Regional",10.0,2.0,2.0,0.0,0.0,57.0,0.0,LAX,DFW,04:53,04:57,06:42,06:49,on-time
+2020,12,G4,Allegiant Air,EWR,"Newark, NJ: Newark Liberty International",32.0,0.0,0.0,0.0,0.0,0.0,0.0,ORD,JFK,15:19,15:28,16:46,16:54,on-time
+2020,12,G4,Allegiant Air,FAT,"Fresno, CA: Fresno Yosemite International",25.0,1.0,1.0,0.0,0.0,88.0,0.0,SFO,ORD,10:46,10:52,11:51,12:08,delayed
+2020,12,G4,Allegiant Air,FCA,"Kalispell, MT: Glacier Park International",18.0,1.0,0.0,0.0,0.0,0.0,0.0,LAX,DEN,06:45,06:55,07:49,08:08,delayed
+2020,12,G4,Allegiant Air,FSD,"Sioux Falls, SD: Joe Foss Field",51.0,3.0,1.0,0.0,2.0,105.0,0.0,JFK,DEN,07:21,07:35,08:23,08:28,on-time
+2020,12,G4,Allegiant Air,GPT,"Gulfport/Biloxi, MS: Gulfport-Biloxi International",9.0,2.0,1.0,0.0,0.0,36.0,0.0,SFO,LAX,18:39,18:47,20:04,20:25,delayed
+2020,12,G4,Allegiant Air,GSO,"Greensboro/High Point, NC: Piedmont Triad International",21.0,2.0,1.0,0.0,0.0,139.0,0.0,ORD,JFK,07:35,07:38,09:13,09:20,on-time
+2020,12,G4,Allegiant Air,HGR,"Hagerstown, MD: Hagerstown Regional-Richard A. Henson Field",14.0,1.0,0.0,1.0,0.0,0.0,20.0,MIA,SEA,09:04,09:10,10:07,10:23,delayed
+2020,12,G4,Allegiant Air,HTS,"Ashland, WV: Tri-State/Milton J. Ferguson Field",37.0,1.0,0.0,0.0,0.0,0.0,0.0,SFO,DEN,23:24,23:35,01:09,01:26,delayed
+2020,12,G4,Allegiant Air,IAG,"Niagara Falls, NY: Niagara Falls International",27.0,1.0,1.0,0.0,0.0,362.0,0.0,DFW,SFO,16:25,16:30,18:03,18:09,on-time
+2020,12,G4,Allegiant Air,LIT,"Little Rock, AR: Bill and Hillary Clinton Nat Adams Field",10.0,0.0,0.0,0.0,0.0,0.0,0.0,DEN,MIA,05:48,05:53,07:37,08:06,delayed
+2020,12,G4,Allegiant Air,MCI,"Kansas City, MO: Kansas City International",15.0,3.0,3.0,0.0,0.0,85.0,0.0,MIA,PHX,00:01,00:16,01:49,02:03,on-time
+2020,12,G4,Allegiant Air,MFR,"Medford, OR: Rogue Valley International - Medford",22.0,0.0,0.0,0.0,0.0,0.0,0.0,PHX,ORD,23:02,23:12,00:46,01:02,delayed
+2020,12,G4,Allegiant Air,MOT,"Minot, ND: Minot International",20.0,2.0,1.0,0.0,1.0,21.0,0.0,JFK,ATL,05:08,05:09,06:16,06:32,delayed
+2020,12,G4,Allegiant Air,MRY,"Monterey, CA: Monterey Regional",9.0,0.0,0.0,0.0,0.0,0.0,0.0,ATL,SFO,17:54,18:03,19:47,20:06,delayed
+2020,12,G4,Allegiant Air,MSY,"New Orleans, LA: Louis Armstrong New Orleans International",16.0,1.0,0.0,0.0,0.0,0.0,0.0,SEA,MIA,17:04,17:05,18:34,18:55,delayed
+2020,12,G4,Allegiant Air,OGD,"Ogden, UT: Ogden-Hinckley",7.0,1.0,1.0,0.0,0.0,159.0,0.0,SEA,LAX,12:05,12:05,13:34,13:53,delayed
+2020,12,G4,Allegiant Air,OKC,"Oklahoma City, OK: Will Rogers World",9.0,1.0,0.0,0.0,1.0,0.0,0.0,ORD,DEN,18:52,19:06,20:36,20:38,on-time
+2020,12,G4,Allegiant Air,OWB,"Owensboro, KY: Owensboro Daviess County Regional",9.0,0.0,0.0,0.0,0.0,0.0,0.0,SFO,JFK,23:22,23:23,01:20,01:50,delayed
+2020,12,G4,Allegiant Air,PSC,"Pasco/Kennewick/Richland, WA: Tri Cities",21.0,1.0,0.0,1.0,0.0,0.0,65.0,DFW,LAX,10:04,10:18,11:32,11:45,on-time
+2020,12,G4,Allegiant Air,PSM,"Portsmouth, NH: Portsmouth International at Pease",23.0,3.0,1.0,1.0,1.0,32.0,25.0,MIA,JFK,19:15,19:19,21:03,21:17,on-time
+2020,12,G4,Allegiant Air,PSP,"Palm Springs, CA: Palm Springs International",23.0,1.0,0.0,0.0,0.0,0.0,0.0,JFK,ATL,09:41,09:53,11:06,11:32,delayed
+2020,12,G4,Allegiant Air,PVD,"Providence, RI: Theodore Francis Green State",10.0,0.0,0.0,0.0,0.0,0.0,0.0,ATL,JFK,03:34,03:37,04:56,05:03,on-time
+2020,12,G4,Allegiant Air,RDM,"Bend/Redmond, OR: Roberts Field",8.0,1.0,1.0,0.0,0.0,32.0,0.0,DFW,MIA,14:29,14:44,16:22,16:33,on-time
+2020,12,G4,Allegiant Air,RNO,"Reno, NV: Reno/Tahoe International",22.0,1.0,1.0,0.0,0.0,74.0,0.0,DEN,ORD,08:06,08:13,09:23,09:29,on-time
+2020,12,G4,Allegiant Air,ROC,"Rochester, NY: Greater Rochester International",6.0,1.0,1.0,0.0,0.0,171.0,0.0,MIA,DFW,07:51,08:05,08:59,09:15,delayed
+2020,12,G4,Allegiant Air,SGF,"Springfield, MO: Springfield-Branson National",53.0,3.0,1.0,0.0,1.0,74.0,0.0,ORD,ATL,06:43,06:56,08:09,08:32,delayed
+2020,12,G4,Allegiant Air,SHV,"Shreveport, LA: Shreveport Regional",9.0,0.0,0.0,0.0,0.0,0.0,0.0,SEA,MIA,15:35,15:35,17:29,17:36,on-time
+2020,12,G4,Allegiant Air,STC,"St. Cloud, MN: St. Cloud Regional",13.0,2.0,1.0,0.0,1.0,15.0,0.0,DFW,SEA,18:27,18:37,20:26,20:30,on-time
+2020,12,G4,Allegiant Air,SWF,"Newburgh/Poughkeepsie, NY: New York Stewart International",26.0,0.0,0.0,0.0,0.0,0.0,0.0,ATL,MIA,03:58,04:02,05:05,05:13,on-time
+2020,12,G4,Allegiant Air,TOL,"Toledo, OH: Toledo Express",36.0,3.0,2.0,0.0,0.0,62.0,0.0,JFK,ORD,04:44,04:45,05:59,06:10,on-time
+2020,12,HA,Hawaiian Airlines Inc.,BOS,"Boston, MA: Logan International",4.0,1.0,1.0,0.0,0.0,18.0,0.0,SFO,MIA,02:02,02:15,03:07,03:30,delayed
+2020,12,HA,Hawaiian Airlines Inc.,JFK,"New York, NY: John F. Kennedy International",8.0,3.0,3.0,0.0,0.0,164.0,0.0,ATL,ORD,15:37,15:40,17:20,17:37,delayed
+2020,12,HA,Hawaiian Airlines Inc.,LAS,"Las Vegas, NV: McCarran International",38.0,1.0,1.0,0.0,0.0,32.0,0.0,PHX,DEN,05:42,05:57,07:38,07:45,on-time
+2020,12,HA,Hawaiian Airlines Inc.,LAX,"Los Angeles, CA: Los Angeles International",82.0,15.0,14.0,0.0,0.0,547.0,0.0,DFW,SFO,06:05,06:08,07:29,07:43,on-time
+2020,12,HA,Hawaiian Airlines Inc.,LGB,"Long Beach, CA: Long Beach Airport",17.0,2.0,2.0,0.0,0.0,77.0,0.0,LAX,MIA,16:07,16:13,17:15,17:40,delayed
+2020,12,HA,Hawaiian Airlines Inc.,OAK,"Oakland, CA: Metropolitan Oakland International",55.0,4.0,4.0,0.0,0.0,85.0,0.0,ATL,MIA,14:48,14:56,16:19,16:40,delayed
+2020,12,HA,Hawaiian Airlines Inc.,PDX,"Portland, OR: Portland International",43.0,4.0,4.0,0.0,0.0,243.0,0.0,ATL,DFW,11:58,12:00,13:02,13:22,delayed
+2020,12,HA,Hawaiian Airlines Inc.,PHX,"Phoenix, AZ: Phoenix Sky Harbor International",22.0,2.0,2.0,0.0,0.0,144.0,0.0,PHX,ORD,18:44,18:48,20:43,20:43,on-time
+2020,12,HA,Hawaiian Airlines Inc.,SAN,"San Diego, CA: San Diego International",40.0,12.0,12.0,0.0,0.0,608.0,0.0,PHX,ATL,17:21,17:36,18:45,19:09,delayed
+2020,12,HA,Hawaiian Airlines Inc.,SEA,"Seattle, WA: Seattle/Tacoma International",54.0,9.0,9.0,0.0,0.0,274.0,0.0,ORD,SFO,05:54,06:01,07:01,07:07,on-time
+2020,12,HA,Hawaiian Airlines Inc.,SFO,"San Francisco, CA: San Francisco International",39.0,9.0,9.0,0.0,0.0,433.0,0.0,MIA,ATL,15:57,16:09,17:05,17:24,delayed
+2020,12,HA,Hawaiian Airlines Inc.,SJC,"San Jose, CA: Norman Y. Mineta San Jose International",46.0,3.0,3.0,0.0,0.0,64.0,0.0,ORD,LAX,14:33,14:45,16:07,16:35,delayed
+2020,12,HA,Hawaiian Airlines Inc.,SMF,"Sacramento, CA: Sacramento International",51.0,14.0,14.0,0.0,0.0,298.0,0.0,SFO,LAX,16:36,16:37,17:45,18:06,delayed
+2020,12,MQ,Envoy Air,ABE,"Allentown/Bethlehem/Easton, PA: Lehigh Valley International",25.0,0.0,0.0,0.0,0.0,0.0,0.0,PHX,ORD,10:11,10:14,11:51,12:12,delayed
+2020,12,MQ,Envoy Air,AUS,"Austin, TX: Austin - Bergstrom International",12.0,2.0,0.0,0.0,2.0,0.0,0.0,ATL,JFK,04:18,04:18,05:56,06:03,on-time
+2020,12,MQ,Envoy Air,BNA,"Nashville, TN: Nashville International",5.0,0.0,0.0,0.0,0.0,0.0,0.0,PHX,JFK,01:50,01:54,03:05,03:30,delayed
+2020,12,MQ,Envoy Air,BWI,"Baltimore, MD: Baltimore/Washington International Thurgood Marshall",23.0,1.0,1.0,0.0,0.0,34.0,0.0,MIA,ATL,01:59,02:12,03:02,03:07,on-time
+2020,12,MQ,Envoy Air,COS,"Colorado Springs, CO: City of Colorado Springs Municipal",25.0,1.0,0.0,0.0,1.0,0.0,0.0,SFO,DFW,09:34,09:46,11:16,11:26,on-time
+2020,12,MQ,Envoy Air,DTW,"Detroit, MI: Detroit Metro Wayne County",4.0,1.0,0.0,0.0,1.0,0.0,0.0,ATL,SFO,15:00,15:01,16:30,16:46,delayed
+2020,12,MQ,Envoy Air,GCK,"Garden City, KS: Garden City Regional",58.0,11.0,7.0,0.0,2.0,232.0,0.0,DEN,ORD,02:21,02:36,04:00,04:01,on-time
+2020,12,MQ,Envoy Air,HDN,"Hayden, CO: Yampa Valley",13.0,2.0,1.0,0.0,1.0,27.0,0.0,JFK,ORD,09:54,10:03,10:58,11:10,on-time
+2020,12,MQ,Envoy Air,HRL,"Harlingen/San Benito, TX: Valley International",6.0,0.0,0.0,0.0,0.0,0.0,0.0,DFW,ORD,17:32,17:38,18:34,18:38,on-time
+2020,12,MQ,Envoy Air,LFT,"Lafayette, LA: Lafayette Regional Paul Fournet Field",24.0,1.0,0.0,0.0,1.0,0.0,0.0,DFW,SEA,19:21,19:27,20:52,21:09,delayed
+2020,12,MQ,Envoy Air,MKE,"Milwaukee, WI: General Mitchell International",24.0,1.0,1.0,0.0,0.0,34.0,0.0,MIA,JFK,06:35,06:49,07:54,08:04,on-time
+2020,12,MQ,Envoy Air,ROC,"Rochester, NY: Greater Rochester International",12.0,0.0,0.0,0.0,0.0,0.0,0.0,DEN,DFW,07:34,07:46,08:50,09:04,on-time
+2020,12,MQ,Envoy Air,RST,"Rochester, MN: Rochester International",28.0,4.0,1.0,1.0,2.0,16.0,30.0,DFW,SFO,23:53,00:03,01:11,01:37,delayed
+2020,12,MQ,Envoy Air,RSW,"Fort Myers, FL: Southwest Florida International",14.0,0.0,0.0,0.0,0.0,0.0,0.0,SFO,DFW,15:52,16:03,17:17,17:35,delayed
+2020,12,MQ,Envoy Air,STS,"Santa Rosa, CA: Charles M. Schulz - Sonoma County",1.0,0.0,0.0,0.0,0.0,0.0,0.0,DFW,JFK,09:32,09:45,10:59,11:14,on-time
+2020,12,MQ,Envoy Air,SUX,"Sioux City, IA: Sioux Gateway Brig Gen Bud Day Field",28.0,1.0,0.0,0.0,1.0,0.0,0.0,LAX,JFK,23:13,23:26,01:12,01:25,on-time
+2020,12,MQ,Envoy Air,TOL,"Toledo, OH: Toledo Express",1.0,0.0,0.0,0.0,0.0,0.0,0.0,DEN,MIA,12:12,12:25,13:23,13:49,delayed
+2020,12,MQ,Envoy Air,TYS,"Knoxville, TN: McGhee Tyson",19.0,1.0,0.0,0.0,1.0,0.0,0.0,SFO,ATL,16:59,17:11,18:55,18:58,on-time
+2020,12,NK,Spirit Air Lines,BUR,"Burbank, CA: Bob Hope",25.0,1.0,0.0,0.0,0.0,0.0,0.0,PHX,LAX,23:06,23:11,00:06,00:19,on-time
+2020,12,OH,PSA Airlines Inc.,ALB,"Albany, NY: Albany International",12.0,0.0,0.0,0.0,0.0,0.0,0.0,DFW,SFO,14:07,14:19,15:08,15:37,delayed
+2020,12,OH,PSA Airlines Inc.,BUF,"Buffalo, NY: Buffalo Niagara International",18.0,1.0,0.0,0.0,0.0,0.0,0.0,SEA,LAX,10:22,10:30,11:30,11:46,delayed
+2020,12,OH,PSA Airlines Inc.,CHO,"Charlottesville, VA: Charlottesville Albemarle",32.0,2.0,0.0,1.0,0.0,0.0,21.0,ORD,SFO,15:50,15:52,17:39,17:43,on-time
+2020,12,OH,PSA Airlines Inc.,CMH,"Columbus, OH: John Glenn Columbus International",20.0,1.0,0.0,0.0,0.0,0.0,0.0,SEA,LAX,20:34,20:45,21:44,22:03,delayed
+2020,12,OH,PSA Airlines Inc.,DCA,"Washington, DC: Ronald Reagan Washington National",79.0,1.0,0.0,0.0,0.0,0.0,0.0,JFK,LAX,17:53,18:02,19:14,19:31,delayed
+2020,12,OH,PSA Airlines Inc.,DSM,"Des Moines, IA: Des Moines International",31.0,3.0,1.0,0.0,2.0,15.0,0.0,DEN,ORD,22:16,22:29,23:17,23:39,delayed
+2020,12,OH,PSA Airlines Inc.,EWR,"Newark, NJ: Newark Liberty International",2.0,0.0,0.0,0.0,0.0,0.0,0.0,DFW,ORD,23:19,23:31,01:19,01:23,on-time
+2020,12,OH,PSA Airlines Inc.,IAH,"Houston, TX: George Bush Intercontinental/Houston",2.0,1.0,0.0,1.0,0.0,0.0,32.0,JFK,PHX,16:50,16:51,18:01,18:12,on-time
+2020,12,OH,PSA Airlines Inc.,IND,"Indianapolis, IN: Indianapolis International",42.0,2.0,2.0,0.0,0.0,93.0,0.0,DEN,JFK,04:43,04:44,06:37,07:01,delayed
+2020,12,OH,PSA Airlines Inc.,MKE,"Milwaukee, WI: General Mitchell International",84.0,1.0,1.0,0.0,0.0,33.0,0.0,SFO,ATL,21:35,21:49,23:31,23:46,on-time
+2020,12,OH,PSA Airlines Inc.,MLB,"Melbourne, FL: Melbourne International",83.0,5.0,0.0,0.0,3.0,0.0,0.0,SEA,DFW,01:40,01:41,02:56,03:03,on-time
+2020,12,OH,PSA Airlines Inc.,MOB,"Mobile, AL: Mobile Regional",19.0,1.0,1.0,0.0,0.0,20.0,0.0,DFW,LAX,04:40,04:47,05:48,06:04,delayed
+2020,12,OH,PSA Airlines Inc.,MSN,"Madison, WI: Dane County Regional-Truax Field",61.0,6.0,2.0,0.0,0.0,68.0,0.0,MIA,DFW,09:05,09:18,10:39,11:08,delayed
+2020,12,OH,PSA Airlines Inc.,OKC,"Oklahoma City, OK: Will Rogers World",21.0,1.0,0.0,0.0,1.0,0.0,0.0,SFO,DFW,05:15,05:15,06:46,06:55,on-time
+2020,12,OH,PSA Airlines Inc.,PBI,"West Palm Beach/Palm Beach, FL: Palm Beach International",15.0,0.0,0.0,0.0,0.0,0.0,0.0,ATL,DFW,08:45,08:52,10:18,10:48,delayed
+2020,12,OH,PSA Airlines Inc.,PIT,"Pittsburgh, PA: Pittsburgh International",35.0,4.0,2.0,0.0,1.0,107.0,0.0,ATL,DEN,05:54,05:59,07:38,07:44,on-time
+2020,12,OH,PSA Airlines Inc.,PWM,"Portland, ME: Portland International Jetport",23.0,2.0,1.0,0.0,0.0,48.0,0.0,DFW,DEN,05:48,05:50,07:23,07:38,on-time
+2020,12,OH,PSA Airlines Inc.,RAP,"Rapid City, SD: Rapid City Regional",1.0,0.0,0.0,0.0,0.0,0.0,0.0,DEN,ORD,05:40,05:45,07:34,07:39,on-time
+2020,12,OH,PSA Airlines Inc.,RSW,"Fort Myers, FL: Southwest Florida International",3.0,0.0,0.0,0.0,0.0,0.0,0.0,LAX,DEN,00:13,00:20,01:45,02:04,delayed
+2020,12,OH,PSA Airlines Inc.,SDF,"Louisville, KY: Louisville Muhammad Ali International",19.0,1.0,1.0,0.0,0.0,66.0,0.0,ATL,LAX,09:00,09:12,10:45,10:45,on-time
+2020,12,OH,PSA Airlines Inc.,SGF,"Springfield, MO: Springfield-Branson National",62.0,2.0,2.0,0.0,0.0,92.0,0.0,SEA,JFK,16:08,16:13,17:45,18:04,delayed
+2020,12,OO,SkyWest Airlines Inc.,ABE,"Allentown/Bethlehem/Easton, PA: Lehigh Valley International",88.0,17.0,17.0,0.0,0.0,1079.0,0.0,ATL,JFK,15:23,15:38,16:55,17:09,on-time
+2020,12,OO,SkyWest Airlines Inc.,ABI,"Abilene, TX: Abilene Regional",61.0,2.0,0.0,0.0,1.0,0.0,0.0,DEN,SEA,15:13,15:17,16:26,16:35,on-time
+2020,12,OO,SkyWest Airlines Inc.,ABQ,"Albuquerque, NM: Albuquerque International Sunport",332.0,37.0,25.0,3.0,0.0,1809.0,800.0,DEN,PHX,20:22,20:34,22:22,22:46,delayed
+2020,12,OO,SkyWest Airlines Inc.,ABR,"Aberdeen, SD: Aberdeen Regional",62.0,7.0,6.0,1.0,0.0,494.0,108.0,ORD,LAX,03:57,04:06,05:42,05:46,on-time
+2020,12,OO,SkyWest Airlines Inc.,ACV,"Arcata/Eureka, CA: California Redwood Coast Humboldt County",67.0,4.0,4.0,0.0,0.0,134.0,0.0,ORD,MIA,07:49,07:54,09:49,09:51,on-time
+2020,12,OO,SkyWest Airlines Inc.,AEX,"Alexandria, LA: Alexandria International",51.0,6.0,6.0,0.0,0.0,308.0,0.0,MIA,SEA,22:40,22:49,00:26,00:53,delayed
+2020,12,OO,SkyWest Airlines Inc.,ALB,"Albany, NY: Albany International",15.0,4.0,3.0,1.0,0.0,272.0,59.0,SEA,PHX,15:51,15:58,17:39,17:39,on-time
+2020,12,OO,SkyWest Airlines Inc.,ALS,"Alamosa, CO: San Luis Valley Regional/Bergman Field",53.0,3.0,2.0,1.0,0.0,63.0,232.0,ORD,ATL,04:53,05:01,06:52,07:13,delayed
+2020,12,OO,SkyWest Airlines Inc.,AMA,"Amarillo, TX: Rick Husband Amarillo International",28.0,4.0,3.0,0.0,0.0,95.0,0.0,ATL,JFK,04:55,05:08,06:37,06:39,on-time
+2020,12,OO,SkyWest Airlines Inc.,APN,"Alpena, MI: Alpena County Regional",53.0,9.0,7.0,2.0,0.0,492.0,211.0,LAX,DFW,17:51,17:53,19:30,19:44,on-time
+2020,12,OO,SkyWest Airlines Inc.,ASE,"Aspen, CO: Aspen Pitkin County Sardy Field",599.0,165.0,65.0,12.0,43.0,3717.0,2572.0,SFO,DFW,22:19,22:28,23:35,23:37,on-time
+2020,12,OO,SkyWest Airlines Inc.,ATL,"Atlanta, GA: Hartsfield-Jackson Atlanta International",102.0,10.0,6.0,3.0,1.0,130.0,105.0,MIA,SFO,00:01,00:12,01:58,01:58,on-time
+2020,12,OO,SkyWest Airlines Inc.,ATW,"Appleton, WI: Appleton International",47.0,14.0,12.0,2.0,0.0,719.0,56.0,ORD,DFW,13:05,13:09,14:10,14:20,on-time
+2020,12,OO,SkyWest Airlines Inc.,ATY,"Watertown, SD: Watertown Regional",53.0,6.0,4.0,2.0,0.0,257.0,274.0,LAX,DEN,17:44,17:45,19:10,19:18,on-time
+2020,12,OO,SkyWest Airlines Inc.,AUS,"Austin, TX: Austin - Bergstrom International",109.0,18.0,13.0,2.0,1.0,511.0,148.0,ATL,PHX,01:18,01:28,02:55,03:21,delayed
+2020,12,OO,SkyWest Airlines Inc.,AZO,"Kalamazoo, MI: Kalamazoo/Battle Creek International",37.0,4.0,4.0,0.0,0.0,195.0,0.0,MIA,ATL,05:13,05:27,07:09,07:28,delayed
+2020,12,OO,SkyWest Airlines Inc.,BFF,"Scottsbluff, NE: Western Neb. Regional/William B. Heilig Field",53.0,9.0,6.0,0.0,0.0,1069.0,0.0,JFK,DEN,16:56,17:00,18:54,19:00,on-time
+2020,12,OO,SkyWest Airlines Inc.,BFL,"Bakersfield, CA: Meadows Field",86.0,9.0,4.0,0.0,0.0,865.0,0.0,MIA,LAX,05:11,05:20,06:23,06:34,on-time
+2020,12,OO,SkyWest Airlines Inc.,BGM,"Binghamton, NY: Greater Binghamton/Edwin A. Link Field",31.0,10.0,7.0,2.0,1.0,419.0,269.0,SEA,MIA,06:20,06:28,07:37,07:43,on-time
+2020,12,OO,SkyWest Airlines Inc.,BHM,"Birmingham, AL: Birmingham-Shuttlesworth International",107.0,21.0,16.0,1.0,0.0,673.0,46.0,LAX,PHX,22:40,22:54,23:46,23:46,on-time
+2020,12,OO,SkyWest Airlines Inc.,BIL,"Billings, MT: Billings Logan International",276.0,42.0,27.0,2.0,2.0,2186.0,65.0,MIA,DEN,14:13,14:19,16:03,16:19,delayed
+2020,12,OO,SkyWest Airlines Inc.,BIS,"Bismarck/Mandan, ND: Bismarck Municipal",276.0,33.0,19.0,4.0,1.0,1150.0,273.0,DEN,MIA,20:46,20:58,22:41,23:01,delayed
+2020,12,OO,SkyWest Airlines Inc.,BJI,"Bemidji, MN: Bemidji Regional",62.0,16.0,12.0,4.0,0.0,689.0,1128.0,SEA,JFK,23:43,23:58,01:08,01:18,on-time
+2020,12,OO,SkyWest Airlines Inc.,BMI,"Bloomington/Normal, IL: Central Il Regional Airport at Bloomington",40.0,10.0,8.0,1.0,0.0,1113.0,26.0,DEN,SEA,19:08,19:23,20:36,20:57,delayed
+2020,12,OO,SkyWest Airlines Inc.,BNA,"Nashville, TN: Nashville International",397.0,59.0,38.0,5.0,2.0,1796.0,375.0,DFW,SEA,23:58,23:59,01:30,01:54,delayed
+2020,12,OO,SkyWest Airlines Inc.,BOI,"Boise, ID: Boise Air Terminal",760.0,67.0,44.0,11.0,1.0,1973.0,687.0,SFO,ORD,00:41,00:43,02:10,02:22,on-time
+2020,12,OO,SkyWest Airlines Inc.,BRD,"Brainerd, MN: Brainerd Lakes Regional",53.0,7.0,7.0,0.0,0.0,1776.0,0.0,LAX,SEA,01:15,01:27,02:19,02:44,delayed
+2020,12,OO,SkyWest Airlines Inc.,BRO,"Brownsville, TX: Brownsville South Padre Island International",42.0,5.0,5.0,0.0,0.0,142.0,0.0,JFK,PHX,09:53,10:04,11:22,11:42,delayed
+2020,12,OO,SkyWest Airlines Inc.,BTM,"Butte, MT: Bert Mooney",58.0,7.0,6.0,1.0,0.0,259.0,25.0,DEN,ATL,14:09,14:10,16:03,16:24,delayed
+2020,12,OO,SkyWest Airlines Inc.,BUF,"Buffalo, NY: Buffalo Niagara International",2.0,1.0,1.0,0.0,0.0,50.0,0.0,DFW,DEN,07:36,07:43,09:36,09:44,on-time
+2020,12,OO,SkyWest Airlines Inc.,BUR,"Burbank, CA: Bob Hope",260.0,18.0,13.0,1.0,0.0,562.0,51.0,PHX,ATL,15:41,15:41,17:28,17:53,delayed
+2020,12,OO,SkyWest Airlines Inc.,BWI,"Baltimore, MD: Baltimore/Washington International Thurgood Marshall",27.0,4.0,3.0,0.0,0.0,202.0,0.0,JFK,MIA,04:41,04:49,05:53,05:55,on-time
+2020,12,YX,Republic Airline,MTJ,"Montrose/Delta, CO: Montrose Regional",15.0,1.0,0.0,0.0,1.0,0.0,0.0,PHX,LAX,08:57,09:03,10:15,10:40,delayed
+2020,12,YX,Republic Airline,OMA,"Omaha, NE: Eppley Airfield",47.0,1.0,0.0,0.0,1.0,0.0,0.0,ORD,MIA,06:32,06:46,08:01,08:15,on-time
+2020,12,YX,Republic Airline,PIA,"Peoria, IL: General Downing - Peoria International",15.0,1.0,0.0,0.0,0.0,0.0,0.0,MIA,SFO,10:46,10:59,12:30,13:00,delayed
+2020,12,YX,Republic Airline,PVD,"Providence, RI: Theodore Francis Green State",48.0,2.0,1.0,0.0,0.0,73.0,0.0,SFO,SEA,21:22,21:27,22:50,23:16,delayed
+2020,12,YX,Republic Airline,ROA,"Roanoke, VA: Roanoke Blacksburg Regional Woodrum Field",2.0,0.0,0.0,0.0,0.0,0.0,0.0,PHX,JFK,03:41,03:55,05:29,05:40,on-time
+2020,12,YX,Republic Airline,SAT,"San Antonio, TX: San Antonio International",45.0,2.0,1.0,0.0,1.0,41.0,0.0,ORD,JFK,17:49,18:03,19:18,19:44,delayed
+2020,12,YX,Republic Airline,SLC,"Salt Lake City, UT: Salt Lake City International",13.0,1.0,0.0,0.0,1.0,0.0,0.0,MIA,ORD,10:11,10:16,11:37,11:50,on-time
+2020,12,YX,Republic Airline,TUL,"Tulsa, OK: Tulsa International",16.0,0.0,0.0,0.0,0.0,0.0,0.0,DFW,JFK,04:56,05:01,06:21,06:47,delayed
+2020,12,YX,Republic Airline,TUS,"Tucson, AZ: Tucson International",17.0,0.0,0.0,0.0,0.0,0.0,0.0,DEN,MIA,06:27,06:38,07:52,08:14,delayed
+2020,12,YX,Republic Airline,TVC,"Traverse City, MI: Cherry Capital",4.0,0.0,0.0,0.0,0.0,0.0,0.0,DEN,SEA,13:30,13:43,15:10,15:16,on-time
+2020,12,YX,Republic Airline,TYS,"Knoxville, TN: McGhee Tyson",1.0,0.0,0.0,0.0,0.0,0.0,0.0,DEN,LAX,22:12,22:14,23:59,00:10,on-time
+2020,12,YX,Republic Airline,VPS,"Valparaiso, FL: Eglin AFB Destin Fort Walton Beach",8.0,0.0,0.0,0.0,0.0,0.0,0.0,MIA,ORD,20:37,20:49,22:03,22:23,delayed
+2020,12,OO,SkyWest Airlines Inc.,BZN,"Bozeman, MT: Bozeman Yellowstone International",204.0,34.0,22.0,5.0,2.0,1468.0,407.0,MIA,ORD,05:24,05:34,07:13,07:14,on-time
+2020,12,OO,SkyWest Airlines Inc.,CDC,"Cedar City, UT: Cedar City Regional",53.0,3.0,3.0,0.0,0.0,94.0,0.0,SEA,DEN,05:21,05:36,06:44,07:01,delayed
+2020,12,OO,SkyWest Airlines Inc.,CGI,"Cape Girardeau, MO: Cape Girardeau Regional",53.0,3.0,2.0,0.0,1.0,76.0,0.0,PHX,LAX,23:47,23:53,00:58,01:21,delayed
+2020,12,OO,SkyWest Airlines Inc.,CHA,"Chattanooga, TN: Lovell Field",30.0,0.0,0.0,0.0,0.0,0.0,0.0,DEN,LAX,23:26,23:36,01:13,01:24,on-time
+2020,12,OO,SkyWest Airlines Inc.,CHS,"Charleston, SC: Charleston AFB/International",33.0,8.0,7.0,0.0,0.0,286.0,0.0,DFW,LAX,17:28,17:30,19:06,19:29,delayed
+2020,12,OO,SkyWest Airlines Inc.,CID,"Cedar Rapids/Iowa City, IA: The Eastern Iowa",264.0,45.0,31.0,4.0,0.0,2752.0,851.0,PHX,ORD,00:53,01:04,02:50,03:06,delayed
+2020,12,OO,SkyWest Airlines Inc.,CIU,"Sault Ste. Marie, MI: Chippewa County International",61.0,16.0,16.0,0.0,0.0,751.0,0.0,DEN,JFK,18:03,18:18,19:50,19:57,on-time
+2020,12,OO,SkyWest Airlines Inc.,CKB,"Clarksburg/Fairmont, WV: North Central West Virginia",53.0,5.0,4.0,0.0,1.0,191.0,0.0,SEA,JFK,17:43,17:46,19:06,19:19,on-time
+2020,12,OO,SkyWest Airlines Inc.,CLE,"Cleveland, OH: Cleveland-Hopkins International",66.0,8.0,8.0,0.0,0.0,270.0,0.0,DEN,SFO,02:18,02:32,03:32,03:39,on-time
+2020,12,OO,SkyWest Airlines Inc.,CLL,"College Station/Bryan, TX: Easterwood Field",26.0,3.0,3.0,0.0,0.0,101.0,0.0,MIA,DFW,01:17,01:32,02:42,02:44,on-time
+2020,12,OO,SkyWest Airlines Inc.,CLT,"Charlotte, NC: Charlotte Douglas International",99.0,13.0,11.0,1.0,0.0,1490.0,35.0,SFO,ATL,22:08,22:15,23:23,23:26,on-time
+2020,12,OO,SkyWest Airlines Inc.,CMH,"Columbus, OH: John Glenn Columbus International",95.0,20.0,19.0,0.0,0.0,978.0,0.0,ORD,PHX,04:35,04:47,06:02,06:26,delayed
+2020,12,OO,SkyWest Airlines Inc.,CMX,"Hancock/Houghton, MI: Houghton County Memorial",62.0,2.0,2.0,0.0,0.0,82.0,0.0,ORD,SEA,04:36,04:44,05:59,06:24,delayed
+2020,12,OO,SkyWest Airlines Inc.,CNY,"Moab, UT: Canyonlands Field",31.0,2.0,1.0,0.0,0.0,26.0,0.0,SEA,DFW,10:14,10:22,11:23,11:46,delayed
+2020,12,OO,SkyWest Airlines Inc.,COD,"Cody, WY: Yellowstone Regional",50.0,7.0,5.0,0.0,0.0,113.0,0.0,DEN,ORD,22:21,22:22,23:52,00:13,delayed
+2020,12,OO,SkyWest Airlines Inc.,COS,"Colorado Springs, CO: City of Colorado Springs Municipal",442.0,61.0,44.0,3.0,2.0,2587.0,232.0,ORD,SFO,01:16,01:28,03:12,03:21,on-time
+2020,12,OO,SkyWest Airlines Inc.,CPR,"Casper, WY: Casper/Natrona County International",171.0,13.0,11.0,0.0,0.0,718.0,0.0,JFK,DFW,00:00,00:14,01:09,01:20,on-time
+2020,12,OO,SkyWest Airlines Inc.,CVG,"Cincinnati, OH: Cincinnati/Northern Kentucky International",53.0,6.0,5.0,0.0,0.0,228.0,0.0,SEA,MIA,14:54,15:01,16:10,16:34,delayed
+2020,12,OO,SkyWest Airlines Inc.,CYS,"Cheyenne, WY: Cheyenne Regional/Jerry Olson Field",31.0,3.0,2.0,0.0,0.0,591.0,0.0,ORD,PHX,22:04,22:17,23:39,23:53,on-time
+2020,12,OO,SkyWest Airlines Inc.,DAL,"Dallas, TX: Dallas Love Field",48.0,1.0,1.0,0.0,0.0,26.0,0.0,ATL,DEN,10:48,10:49,11:59,12:08,on-time
+2020,12,OO,SkyWest Airlines Inc.,DAY,"Dayton, OH: James M Cox/Dayton International",7.0,1.0,1.0,0.0,0.0,16.0,0.0,MIA,PHX,07:00,07:07,08:54,09:19,delayed
+2020,12,OO,SkyWest Airlines Inc.,DCA,"Washington, DC: Ronald Reagan Washington National",53.0,2.0,0.0,0.0,1.0,0.0,0.0,JFK,ATL,20:58,21:10,22:37,23:03,delayed
+2020,12,OO,SkyWest Airlines Inc.,DDC,"Dodge City, KS: Dodge City Regional",53.0,8.0,4.0,1.0,0.0,73.0,42.0,SEA,ATL,06:39,06:51,08:38,08:54,delayed
+2020,12,OO,SkyWest Airlines Inc.,DEC,"Decatur, IL: Decatur Airport",53.0,5.0,2.0,0.0,0.0,72.0,0.0,ORD,MIA,07:17,07:28,08:24,08:47,delayed
+2020,12,OO,SkyWest Airlines Inc.,DEN,"Denver, CO: Denver International",5707.0,1075.0,697.0,63.0,187.0,55215.0,9357.0,ATL,DEN,12:33,12:44,13:52,14:14,delayed
+2020,12,OO,SkyWest Airlines Inc.,DFW,"Dallas/Fort Worth, TX: Dallas/Fort Worth International",1800.0,381.0,186.0,22.0,12.0,15376.0,1868.0,JFK,PHX,23:04,23:12,00:32,00:54,delayed
+2020,12,OO,SkyWest Airlines Inc.,DIK,"Dickinson, ND: Dickinson - Theodore Roosevelt Regional",30.0,7.0,6.0,0.0,0.0,266.0,0.0,DFW,ATL,02:02,02:02,03:08,03:19,on-time
+2020,12,OO,SkyWest Airlines Inc.,DRO,"Durango, CO: Durango La Plata County",282.0,27.0,16.0,1.0,1.0,510.0,40.0,JFK,DEN,15:18,15:30,16:47,16:47,on-time
+2020,12,OO,SkyWest Airlines Inc.,DSM,"Des Moines, IA: Des Moines International",163.0,24.0,14.0,0.0,1.0,765.0,0.0,SEA,DEN,12:58,13:08,14:02,14:13,on-time
+2020,12,OO,SkyWest Airlines Inc.,DTW,"Detroit, MI: Detroit Metro Wayne County",1709.0,264.0,196.0,59.0,3.0,18785.0,8267.0,ATL,SFO,02:53,03:03,04:02,04:27,delayed
+2020,12,OO,SkyWest Airlines Inc.,DVL,"Devils Lake, ND: Devils Lake Regional",53.0,6.0,1.0,2.0,0.0,21.0,82.0,ORD,JFK,12:52,13:04,14:07,14:29,delayed
+2020,12,OO,SkyWest Airlines Inc.,EAR,"Kearney, NE: Kearney Regional",61.0,9.0,8.0,0.0,0.0,229.0,0.0,ATL,JFK,05:45,05:52,06:53,06:56,on-time
+2020,12,OO,SkyWest Airlines Inc.,EAU,"Eau Claire, WI: Chippewa Valley Regional",62.0,1.0,1.0,0.0,0.0,45.0,0.0,SEA,ATL,16:07,16:15,17:54,18:01,on-time
+2020,12,OO,SkyWest Airlines Inc.,EGE,"Eagle, CO: Eagle County Regional",149.0,25.0,6.0,3.0,9.0,485.0,182.0,DEN,ATL,08:32,08:36,10:28,10:50,delayed
+2020,12,OO,SkyWest Airlines Inc.,EKO,"Elko, NV: Elko Regional",56.0,5.0,3.0,1.0,1.0,64.0,695.0,ORD,SEA,01:25,01:27,02:55,03:07,on-time
+2020,12,OO,SkyWest Airlines Inc.,ELP,"El Paso, TX: El Paso International",100.0,20.0,18.0,1.0,0.0,658.0,73.0,ATL,LAX,04:28,04:35,06:22,06:38,delayed
+2020,12,OO,SkyWest Airlines Inc.,ESC,"Escanaba, MI: Delta County",53.0,7.0,6.0,1.0,0.0,1218.0,17.0,DFW,MIA,17:59,18:02,19:47,20:02,on-time
+2020,12,OO,SkyWest Airlines Inc.,EUG,"Eugene, OR: Mahlon Sweet Field",381.0,35.0,19.0,8.0,1.0,780.0,734.0,JFK,ATL,20:00,20:05,21:58,22:08,on-time
+2020,12,OO,SkyWest Airlines Inc.,FAI,"Fairbanks, AK: Fairbanks International",31.0,4.0,3.0,1.0,0.0,109.0,165.0,LAX,ATL,11:26,11:34,13:19,13:31,on-time
+2020,12,OO,SkyWest Airlines Inc.,FAR,"Fargo, ND: Hector International",135.0,22.0,18.0,3.0,0.0,1519.0,197.0,ORD,SEA,09:57,10:11,11:24,11:42,delayed
+2020,12,OO,SkyWest Airlines Inc.,FAT,"Fresno, CA: Fresno Yosemite International",538.0,60.0,28.0,8.0,1.0,1445.0,2309.0,SFO,DEN,11:06,11:07,12:25,12:55,delayed
+2020,12,OO,SkyWest Airlines Inc.,FCA,"Kalispell, MT: Glacier Park International",153.0,26.0,21.0,2.0,2.0,1001.0,49.0,LAX,ATL,21:48,21:58,22:52,23:02,on-time
+2020,12,OO,SkyWest Airlines Inc.,FLG,"Flagstaff, AZ: Flagstaff Pulliam",150.0,11.0,4.0,0.0,0.0,92.0,0.0,JFK,ATL,17:29,17:35,18:41,18:44,on-time
+2020,12,OO,SkyWest Airlines Inc.,FLL,"Fort Lauderdale, FL: Fort Lauderdale-Hollywood International",1.0,0.0,0.0,0.0,0.0,0.0,0.0,SEA,DEN,13:56,14:04,15:13,15:24,on-time
+2020,12,OO,SkyWest Airlines Inc.,FSD,"Sioux Falls, SD: Joe Foss Field",135.0,23.0,16.0,1.0,1.0,761.0,22.0,DFW,ORD,04:41,04:53,06:25,06:52,delayed
+2020,12,OO,SkyWest Airlines Inc.,FSM,"Fort Smith, AR: Fort Smith Regional",53.0,5.0,4.0,0.0,0.0,194.0,0.0,LAX,ORD,20:33,20:47,22:23,22:26,on-time
+2020,12,OO,SkyWest Airlines Inc.,FWA,"Fort Wayne, IN: Fort Wayne International",206.0,37.0,30.0,3.0,0.0,2445.0,98.0,ORD,DEN,00:37,00:51,02:13,02:24,on-time
+2020,12,OO,SkyWest Airlines Inc.,GCC,"Gillette, WY: Gillette Campbell County",55.0,8.0,7.0,0.0,0.0,268.0,0.0,ORD,ATL,20:04,20:06,21:15,21:31,delayed
+2020,12,OO,SkyWest Airlines Inc.,GEG,"Spokane, WA: Spokane International",295.0,47.0,33.0,9.0,1.0,1364.0,840.0,SFO,DFW,21:58,21:59,23:22,23:42,delayed
+2020,12,OO,SkyWest Airlines Inc.,GFK,"Grand Forks, ND: Grand Forks International",77.0,13.0,9.0,4.0,0.0,1120.0,281.0,SEA,ATL,22:51,22:52,00:49,01:10,delayed
+2020,12,OO,SkyWest Airlines Inc.,GJT,"Grand Junction, CO: Grand Junction Regional",301.0,37.0,27.0,0.0,0.0,1061.0,0.0,ORD,LAX,12:25,12:27,14:23,14:31,on-time
+2020,12,OO,SkyWest Airlines Inc.,GNV,"Gainesville, FL: Gainesville Regional",31.0,6.0,1.0,0.0,0.0,21.0,0.0,LAX,SFO,08:14,08:18,09:16,09:44,delayed
+2020,12,OO,SkyWest Airlines Inc.,GRB,"Green Bay, WI: Green Bay Austin Straubel International",13.0,3.0,1.0,0.0,0.0,25.0,0.0,DFW,SEA,03:18,03:31,04:58,05:27,delayed
+2020,12,OO,SkyWest Airlines Inc.,GRR,"Grand Rapids, MI: Gerald R. Ford International",78.0,15.0,12.0,1.0,0.0,313.0,186.0,PHX,DEN,00:11,00:18,02:04,02:09,on-time
+2020,12,OO,SkyWest Airlines Inc.,GSP,"Greer, SC: Greenville-Spartanburg International",4.0,1.0,0.0,0.0,0.0,0.0,0.0,LAX,PHX,01:27,01:36,02:50,03:08,delayed
+2020,12,OO,SkyWest Airlines Inc.,GTF,"Great Falls, MT: Great Falls International",191.0,21.0,15.0,4.0,1.0,420.0,201.0,PHX,MIA,09:10,09:18,10:58,11:17,delayed
+2020,12,OO,SkyWest Airlines Inc.,GUC,"Gunnison, CO: Gunnison-Crested Butte Regional",57.0,13.0,7.0,2.0,0.0,282.0,108.0,MIA,LAX,23:38,23:51,01:18,01:46,delayed
+2020,12,OO,SkyWest Airlines Inc.,HDN,"Hayden, CO: Yampa Valley",116.0,9.0,7.0,1.0,0.0,493.0,63.0,LAX,ATL,09:17,09:27,11:14,11:35,delayed
+2020,12,OO,SkyWest Airlines Inc.,HIB,"Hibbing, MN: Range Regional",53.0,6.0,3.0,2.0,0.0,729.0,736.0,JFK,ATL,10:29,10:31,11:33,11:54,delayed
+2020,12,OO,SkyWest Airlines Inc.,HLN,"Helena, MT: Helena Regional",105.0,7.0,5.0,2.0,0.0,582.0,72.0,DEN,SEA,04:21,04:27,05:27,05:57,delayed
+2020,12,OO,SkyWest Airlines Inc.,HOB,"Hobbs, NM: Lea County Regional",23.0,0.0,0.0,0.0,0.0,0.0,0.0,SEA,DEN,00:40,00:47,02:30,02:47,delayed
+2020,12,OO,SkyWest Airlines Inc.,HOU,"Houston, TX: William P Hobby",25.0,2.0,1.0,0.0,0.0,23.0,0.0,ATL,DFW,11:55,11:55,12:57,13:14,delayed
+2020,12,OO,SkyWest Airlines Inc.,HRL,"Harlingen/San Benito, TX: Valley International",114.0,10.0,5.0,2.0,0.0,213.0,50.0,SEA,SFO,19:52,20:00,21:11,21:25,on-time
+2020,12,OO,SkyWest Airlines Inc.,HSV,"Huntsville, AL: Huntsville International-Carl T Jones Field",32.0,3.0,2.0,0.0,1.0,85.0,0.0,LAX,DEN,09:30,09:42,11:08,11:14,on-time
+2020,12,OO,SkyWest Airlines Inc.,HYS,"Hays, KS: Hays Regional",53.0,9.0,8.0,0.0,0.0,274.0,0.0,DEN,DFW,07:28,07:40,08:28,08:46,delayed
+2020,12,OO,SkyWest Airlines Inc.,IAD,"Washington, DC: Washington Dulles International",311.0,35.0,25.0,9.0,0.0,3121.0,565.0,DEN,SFO,01:27,01:38,03:07,03:10,on-time
+2020,12,OO,SkyWest Airlines Inc.,IAH,"Houston, TX: George Bush Intercontinental/Houston",1773.0,227.0,148.0,20.0,15.0,8402.0,1791.0,ORD,DEN,11:00,11:05,12:47,13:03,delayed
+2020,12,OO,SkyWest Airlines Inc.,ICT,"Wichita, KS: Wichita Dwight D Eisenhower National",164.0,23.0,21.0,0.0,0.0,891.0,0.0,LAX,PHX,15:18,15:18,17:18,17:36,delayed
+2020,12,OO,SkyWest Airlines Inc.,IDA,"Idaho Falls, ID: Idaho Falls Regional",206.0,25.0,19.0,1.0,1.0,1233.0,15.0,SEA,SFO,09:47,09:58,11:06,11:36,delayed
+2020,12,OO,SkyWest Airlines Inc.,IMT,"Iron Mountain/Kingsfd, MI: Ford",61.0,8.0,7.0,1.0,0.0,277.0,47.0,SEA,ORD,07:21,07:26,09:16,09:26,on-time
+2020,12,OO,SkyWest Airlines Inc.,IND,"Indianapolis, IN: Indianapolis International",108.0,8.0,4.0,1.0,0.0,117.0,15.0,PHX,SFO,13:23,13:36,14:39,14:44,on-time
+2020,12,OO,SkyWest Airlines Inc.,INL,"International Falls, MN: Falls International Einarson Field",53.0,9.0,7.0,2.0,0.0,348.0,154.0,MIA,SFO,08:03,08:15,09:07,09:34,delayed
+2020,12,OO,SkyWest Airlines Inc.,ITH,"Ithaca/Cortland, NY: Ithaca Tompkins Regional",31.0,7.0,5.0,2.0,0.0,192.0,133.0,PHX,DFW,01:16,01:25,02:29,02:48,delayed
+2020,12,OO,SkyWest Airlines Inc.,JAC,"Jackson, WY: Jackson Hole",141.0,22.0,17.0,2.0,1.0,635.0,38.0,ATL,LAX,01:12,01:27,02:38,02:43,on-time
+2020,12,OO,SkyWest Airlines Inc.,JAN,"Jackson/Vicksburg, MS: Jackson Medgar Wiley Evers International",1.0,0.0,0.0,0.0,0.0,0.0,0.0,DFW,ATL,10:07,10:18,11:31,12:00,delayed
+2020,12,OO,SkyWest Airlines Inc.,JAX,"Jacksonville, FL: Jacksonville International",45.0,5.0,5.0,0.0,0.0,128.0,0.0,MIA,ORD,08:11,08:23,09:59,10:00,on-time
+2020,12,OO,SkyWest Airlines Inc.,JLN,"Joplin, MO: Joplin Regional",45.0,7.0,2.0,0.0,1.0,70.0,0.0,MIA,SFO,09:02,09:13,10:30,10:32,on-time
+2020,12,OO,SkyWest Airlines Inc.,JMS,"Jamestown, ND: Jamestown Regional",84.0,12.0,7.0,1.0,0.0,607.0,40.0,SEA,DEN,20:36,20:40,22:32,22:41,on-time
+2020,12,OO,SkyWest Airlines Inc.,JST,"Johnstown, PA: John Murtha Johnstown-Cambria County",51.0,7.0,7.0,0.0,0.0,404.0,0.0,SFO,DEN,20:59,21:04,22:32,22:54,delayed
+2020,12,OO,SkyWest Airlines Inc.,LAN,"Lansing, MI: Capital Region International",40.0,9.0,4.0,5.0,0.0,214.0,908.0,SFO,ATL,01:10,01:23,02:17,02:19,on-time
+2020,12,OO,SkyWest Airlines Inc.,LAR,"Laramie, WY: Laramie Regional",53.0,10.0,5.0,3.0,0.0,196.0,360.0,SFO,PHX,18:39,18:41,19:39,19:51,on-time
+2020,12,OO,SkyWest Airlines Inc.,LAS,"Las Vegas, NV: McCarran International",379.0,22.0,16.0,4.0,0.0,600.0,161.0,DEN,DFW,04:13,04:23,05:37,05:58,delayed
+2020,12,OO,SkyWest Airlines Inc.,LAX,"Los Angeles, CA: Los Angeles International",2797.0,210.0,130.0,28.0,7.0,9112.0,2790.0,LAX,JFK,19:21,19:30,20:36,20:49,on-time
+2020,12,OO,SkyWest Airlines Inc.,LBB,"Lubbock, TX: Lubbock Preston Smith International",71.0,7.0,7.0,0.0,0.0,364.0,0.0,SEA,ATL,13:35,13:39,14:58,15:18,delayed
+2020,12,OO,SkyWest Airlines Inc.,LBF,"North Platte, NE: North Platte Regional Airport Lee Bird Field",53.0,5.0,4.0,0.0,0.0,76.0,0.0,ORD,ATL,09:24,09:30,10:59,11:03,on-time
+2020,12,OO,SkyWest Airlines Inc.,LBL,"Liberal, KS: Liberal Mid-America Regional",53.0,3.0,1.0,1.0,0.0,16.0,45.0,PHX,SFO,08:59,09:04,10:45,10:56,on-time
+2020,12,OO,SkyWest Airlines Inc.,LCH,"Lake Charles, LA: Lake Charles Regional",11.0,1.0,1.0,0.0,0.0,36.0,0.0,DEN,JFK,16:15,16:30,18:15,18:41,delayed
+2020,12,OO,SkyWest Airlines Inc.,LEX,"Lexington, KY: Blue Grass",15.0,4.0,3.0,0.0,0.0,260.0,0.0,ORD,JFK,16:47,16:47,17:47,17:47,on-time
+2020,12,OO,SkyWest Airlines Inc.,LFT,"Lafayette, LA: Lafayette Regional Paul Fournet Field",84.0,12.0,4.0,1.0,0.0,99.0,60.0,SFO,JFK,04:36,04:37,05:52,06:09,delayed
+2020,12,OO,SkyWest Airlines Inc.,LGB,"Long Beach, CA: Long Beach Airport",94.0,10.0,9.0,1.0,0.0,910.0,46.0,DEN,ATL,21:21,21:35,23:19,23:41,delayed
+2020,12,OO,SkyWest Airlines Inc.,LIT,"Little Rock, AR: Bill and Hillary Clinton Nat Adams Field",97.0,19.0,12.0,2.0,0.0,1293.0,125.0,ORD,PHX,22:19,22:22,00:09,00:31,delayed
+2020,12,OO,SkyWest Airlines Inc.,LNK,"Lincoln, NE: Lincoln Airport",61.0,6.0,5.0,1.0,0.0,210.0,20.0,DEN,ORD,16:04,16:08,17:27,17:57,delayed
+2020,12,OO,SkyWest Airlines Inc.,LRD,"Laredo, TX: Laredo International",23.0,5.0,4.0,0.0,0.0,102.0,0.0,DFW,ATL,10:26,10:34,12:10,12:34,delayed
+2020,12,OO,SkyWest Airlines Inc.,LSE,"La Crosse, WI: La Crosse Regional",102.0,17.0,13.0,3.0,1.0,750.0,233.0,MIA,SEA,11:08,11:18,13:03,13:32,delayed
+2020,12,OO,SkyWest Airlines Inc.,LWB,"Lewisburg, WV: Greenbrier Valley",31.0,2.0,1.0,0.0,0.0,33.0,0.0,ATL,SFO,04:20,04:29,05:44,06:13,delayed
+2020,12,OO,SkyWest Airlines Inc.,LWS,"Lewiston, ID: Lewiston Nez Perce County",73.0,5.0,3.0,2.0,0.0,78.0,952.0,SFO,DEN,16:38,16:48,18:11,18:33,delayed
+2020,12,OO,SkyWest Airlines Inc.,MAF,"Midland/Odessa, TX: Midland International Air and Space Port",73.0,10.0,9.0,0.0,0.0,413.0,0.0,ORD,SFO,14:32,14:37,15:39,15:40,on-time
+2020,12,OO,SkyWest Airlines Inc.,MBS,"Saginaw/Bay City/Midland, MI: MBS International",1.0,0.0,0.0,0.0,0.0,0.0,0.0,ORD,MIA,16:08,16:13,18:08,18:11,on-time
+2020,12,OO,SkyWest Airlines Inc.,MCI,"Kansas City, MO: Kansas City International",238.0,22.0,19.0,2.0,1.0,1134.0,903.0,ORD,PHX,03:23,03:33,04:25,04:46,delayed
+2020,12,OO,SkyWest Airlines Inc.,MEI,"Meridian, MS: Key Field",53.0,3.0,3.0,0.0,0.0,153.0,0.0,MIA,DFW,03:40,03:43,04:58,05:13,on-time
+2020,12,OO,SkyWest Airlines Inc.,MEM,"Memphis, TN: Memphis International",65.0,15.0,9.0,1.0,0.0,533.0,29.0,ATL,PHX,03:47,03:58,05:05,05:23,delayed
+2020,12,OO,SkyWest Airlines Inc.,MFE,"Mission/McAllen/Edinburg, TX: McAllen Miller International",4.0,0.0,0.0,0.0,0.0,0.0,0.0,PHX,DEN,21:40,21:51,23:07,23:15,on-time
+2020,12,OO,SkyWest Airlines Inc.,MFR,"Medford, OR: Rogue Valley International - Medford",383.0,52.0,28.0,11.0,2.0,1672.0,3164.0,DFW,LAX,20:01,20:14,21:13,21:25,on-time
+2020,12,OO,SkyWest Airlines Inc.,MHT,"Manchester, NH: Manchester-Boston Regional",52.0,8.0,4.0,0.0,0.0,185.0,0.0,JFK,DEN,16:08,16:18,17:32,17:59,delayed
+2020,12,OO,SkyWest Airlines Inc.,MKE,"Milwaukee, WI: General Mitchell International",451.0,64.0,36.0,8.0,0.0,1722.0,380.0,JFK,SFO,00:03,00:07,01:11,01:27,delayed
+2020,12,OO,SkyWest Airlines Inc.,MKG,"Muskegon, MI: Muskegon County",57.0,5.0,3.0,0.0,0.0,100.0,0.0,PHX,SEA,12:09,12:24,13:49,14:00,on-time
+2020,12,OO,SkyWest Airlines Inc.,MLI,"Moline, IL: Quad City International",6.0,0.0,0.0,0.0,0.0,0.0,0.0,DEN,PHX,09:31,09:39,11:16,11:32,delayed
+2020,12,OO,SkyWest Airlines Inc.,MLU,"Monroe, LA: Monroe Regional",31.0,0.0,0.0,0.0,0.0,0.0,0.0,MIA,ORD,16:31,16:31,17:44,18:10,delayed
+2020,12,OO,SkyWest Airlines Inc.,MOT,"Minot, ND: Minot International",63.0,7.0,6.0,0.0,0.0,1620.0,0.0,LAX,ORD,16:17,16:22,17:57,18:08,on-time
+2020,12,OO,SkyWest Airlines Inc.,MQT,"Marquette, MI: Sawyer International",73.0,15.0,12.0,3.0,0.0,796.0,227.0,ORD,LAX,13:19,13:32,15:09,15:39,delayed
+2020,12,OO,SkyWest Airlines Inc.,MRY,"Monterey, CA: Monterey Regional",155.0,18.0,9.0,0.0,0.0,450.0,0.0,SEA,SFO,13:52,13:55,15:22,15:52,delayed
+2020,12,OO,SkyWest Airlines Inc.,MSN,"Madison, WI: Dane County Regional-Truax Field",138.0,18.0,15.0,2.0,0.0,552.0,300.0,SEA,PHX,17:40,17:41,19:21,19:39,delayed
+2020,12,OO,SkyWest Airlines Inc.,MSO,"Missoula, MT: Missoula International",159.0,23.0,21.0,2.0,0.0,1180.0,80.0,LAX,PHX,16:38,16:42,18:22,18:39,delayed
+2020,12,OO,SkyWest Airlines Inc.,MSP,"Minneapolis, MN: Minneapolis-St Paul International",2351.0,259.0,202.0,54.0,0.0,20968.0,10048.0,SFO,SEA,09:20,09:35,10:45,11:15,delayed
+2020,12,OO,SkyWest Airlines Inc.,MTJ,"Montrose/Delta, CO: Montrose Regional",95.0,11.0,10.0,1.0,0.0,504.0,32.0,JFK,PHX,13:10,13:10,15:07,15:20,on-time
+2020,12,OO,SkyWest Airlines Inc.,OAK,"Oakland, CA: Metropolitan Oakland International",168.0,10.0,6.0,1.0,1.0,136.0,104.0,JFK,LAX,13:22,13:24,14:35,14:36,on-time
+2020,12,OO,SkyWest Airlines Inc.,OGS,"Ogdensburg, NY: Ogdensburg International",53.0,9.0,8.0,0.0,0.0,518.0,0.0,SEA,JFK,09:47,09:51,11:46,11:58,on-time
+2020,12,OO,SkyWest Airlines Inc.,OKC,"Oklahoma City, OK: Will Rogers World",388.0,67.0,55.0,2.0,0.0,2813.0,140.0,MIA,JFK,14:42,14:50,15:48,15:49,on-time
+2020,12,OO,SkyWest Airlines Inc.,OMA,"Omaha, NE: Eppley Airfield",348.0,49.0,36.0,4.0,0.0,1526.0,198.0,SFO,DFW,09:09,09:10,11:09,11:13,on-time
+2020,12,OO,SkyWest Airlines Inc.,ONT,"Ontario, CA: Ontario International",267.0,21.0,15.0,4.0,0.0,668.0,98.0,LAX,SEA,11:19,11:28,13:11,13:19,on-time
+2020,12,OO,SkyWest Airlines Inc.,ORD,"Chicago, IL: Chicago O'Hare International",2671.0,265.0,154.0,31.0,29.0,12690.0,4579.0,LAX,MIA,09:49,09:53,11:21,11:40,delayed
+2020,12,OO,SkyWest Airlines Inc.,ORF,"Norfolk, VA: Norfolk International",2.0,0.0,0.0,0.0,0.0,0.0,0.0,SEA,DEN,23:00,23:12,00:43,01:07,delayed
+2020,12,OO,SkyWest Airlines Inc.,OTH,"North Bend/Coos Bay, OR: Southwest Oregon Regional",13.0,2.0,1.0,1.0,0.0,38.0,37.0,ORD,SFO,17:05,17:11,18:05,18:29,delayed
+2020,12,OO,SkyWest Airlines Inc.,PAE,"Everett, WA: Snohomish County",23.0,1.0,1.0,0.0,0.0,25.0,0.0,LAX,MIA,08:34,08:47,10:33,10:40,on-time
+2020,12,OO,SkyWest Airlines Inc.,PAH,"Paducah, KY: Barkley Regional",62.0,2.0,2.0,0.0,0.0,80.0,0.0,SEA,ATL,22:10,22:22,23:42,23:54,on-time
+2020,12,OO,SkyWest Airlines Inc.,PBG,"Plattsburgh, NY: Plattsburgh International",53.0,7.0,4.0,0.0,0.0,506.0,0.0,SFO,JFK,15:32,15:34,16:54,17:19,delayed
+2020,12,OO,SkyWest Airlines Inc.,PDX,"Portland, OR: Portland International",719.0,60.0,35.0,12.0,1.0,1651.0,791.0,DEN,JFK,18:11,18:15,19:24,19:48,delayed
+2020,12,OO,SkyWest Airlines Inc.,PHX,"Phoenix, AZ: Phoenix Sky Harbor International",1747.0,198.0,130.0,9.0,2.0,11872.0,765.0,PHX,ATL,00:29,00:38,01:58,02:22,delayed
+2020,12,OO,SkyWest Airlines Inc.,PIB,"Hattiesburg/Laurel, MS: Hattiesburg-Laurel Regional",53.0,2.0,2.0,0.0,0.0,46.0,0.0,PHX,SFO,22:51,23:04,00:04,00:23,delayed
+2020,12,OO,SkyWest Airlines Inc.,PIH,"Pocatello, ID: Pocatello Regional",100.0,14.0,12.0,2.0,0.0,857.0,249.0,SEA,DEN,17:34,17:38,18:47,19:06,delayed
+2020,12,OO,SkyWest Airlines Inc.,PIR,"Pierre, SD: Pierre Regional",53.0,9.0,6.0,0.0,0.0,231.0,0.0,DEN,DFW,04:48,05:03,06:20,06:30,on-time
+2020,12,OO,SkyWest Airlines Inc.,PIT,"Pittsburgh, PA: Pittsburgh International",90.0,12.0,10.0,2.0,0.0,676.0,74.0,ATL,DEN,18:48,18:49,20:24,20:36,on-time
+2020,12,OO,SkyWest Airlines Inc.,PLN,"Pellston, MI: Pellston Regional Airport of Emmet County",53.0,10.0,7.0,3.0,0.0,229.0,785.0,PHX,ORD,17:14,17:16,18:53,19:19,delayed
+2020,12,OO,SkyWest Airlines Inc.,PNS,"Pensacola, FL: Pensacola International",41.0,6.0,2.0,0.0,0.0,273.0,0.0,SEA,SFO,04:34,04:49,06:25,06:48,delayed
+2020,12,OO,SkyWest Airlines Inc.,PRC,"Prescott, AZ: Prescott Regional Ernest A Love Field",63.0,6.0,6.0,0.0,0.0,234.0,0.0,JFK,SFO,02:07,02:21,03:30,04:00,delayed
+2020,12,OO,SkyWest Airlines Inc.,PSC,"Pasco/Kennewick/Richland, WA: Tri Cities",272.0,31.0,18.0,10.0,2.0,953.0,618.0,DEN,DFW,05:51,05:55,07:37,08:03,delayed
+2020,12,OO,SkyWest Airlines Inc.,PSP,"Palm Springs, CA: Palm Springs International",542.0,67.0,48.0,4.0,3.0,2418.0,769.0,PHX,ATL,17:40,17:54,19:35,19:50,on-time
+2020,12,OO,SkyWest Airlines Inc.,PUB,"Pueblo, CO: Pueblo Memorial",53.0,7.0,6.0,0.0,0.0,181.0,0.0,JFK,ATL,22:42,22:42,00:21,00:46,delayed
+2020,12,OO,SkyWest Airlines Inc.,PVD,"Providence, RI: Theodore Francis Green State",15.0,3.0,2.0,1.0,0.0,166.0,35.0,PHX,SEA,14:35,14:46,16:13,16:22,on-time
+2020,12,OO,SkyWest Airlines Inc.,RAP,"Rapid City, SD: Rapid City Regional",192.0,26.0,18.0,6.0,0.0,512.0,324.0,JFK,SFO,10:02,10:16,11:18,11:36,delayed
+2020,12,OO,SkyWest Airlines Inc.,RDD,"Redding, CA: Redding Municipal",29.0,3.0,3.0,0.0,0.0,182.0,0.0,SFO,ORD,01:21,01:29,02:28,02:40,on-time
+2020,12,OO,SkyWest Airlines Inc.,RDM,"Bend/Redmond, OR: Roberts Field",372.0,37.0,23.0,9.0,0.0,1235.0,1993.0,DFW,DEN,10:56,11:05,12:54,13:20,delayed
+2020,12,OO,SkyWest Airlines Inc.,RHI,"Rhinelander, WI: Rhinelander/Oneida County",63.0,11.0,9.0,2.0,0.0,340.0,150.0,SEA,LAX,16:00,16:13,17:05,17:06,on-time
+2020,12,OO,SkyWest Airlines Inc.,RIC,"Richmond, VA: Richmond International",15.0,1.0,1.0,0.0,0.0,31.0,0.0,DEN,LAX,12:04,12:17,13:32,14:02,delayed
+2020,12,OO,SkyWest Airlines Inc.,RIW,"Riverton/Lander, WY: Riverton Regional",45.0,1.0,0.0,0.0,1.0,0.0,0.0,MIA,SEA,09:18,09:29,11:16,11:44,delayed
+2020,12,OO,SkyWest Airlines Inc.,RKS,"Rock Springs, WY: Southwest Wyoming Regional",45.0,5.0,5.0,0.0,0.0,145.0,0.0,SFO,SEA,07:47,07:57,09:32,09:43,on-time
+2020,12,OO,SkyWest Airlines Inc.,RNO,"Reno, NV: Reno/Tahoe International",370.0,25.0,19.0,2.0,0.0,729.0,40.0,DFW,ATL,17:50,17:54,19:04,19:18,on-time
+2020,12,OO,SkyWest Airlines Inc.,ROA,"Roanoke, VA: Roanoke Blacksburg Regional Woodrum Field",17.0,0.0,0.0,0.0,0.0,0.0,0.0,MIA,ORD,10:13,10:26,11:46,12:13,delayed
+2020,12,OO,SkyWest Airlines Inc.,ROC,"Rochester, NY: Greater Rochester International",1.0,0.0,0.0,0.0,0.0,0.0,0.0,JFK,DFW,09:18,09:24,10:50,11:18,delayed
+2020,12,OO,SkyWest Airlines Inc.,ROW,"Roswell, NM: Roswell International Air Center",57.0,6.0,1.0,0.0,0.0,24.0,0.0,LAX,SFO,15:57,16:09,16:59,17:23,delayed
+2020,12,OO,SkyWest Airlines Inc.,RST,"Rochester, MN: Rochester International",92.0,9.0,7.0,1.0,0.0,395.0,687.0,LAX,SEA,11:44,11:49,13:12,13:28,delayed
+2020,12,OO,SkyWest Airlines Inc.,SAF,"Santa Fe, NM: Santa Fe Municipal",96.0,18.0,7.0,0.0,0.0,1201.0,0.0,PHX,JFK,22:12,22:17,23:44,00:01,delayed
+2020,12,OO,SkyWest Airlines Inc.,SAN,"San Diego, CA: San Diego International",512.0,39.0,24.0,1.0,1.0,1049.0,15.0,ATL,ORD,17:03,17:15,18:43,19:07,delayed
+2020,12,OO,SkyWest Airlines Inc.,SAT,"San Antonio, TX: San Antonio International",324.0,63.0,50.0,10.0,1.0,1839.0,472.0,ATL,PHX,11:51,11:53,13:10,13:27,delayed
+2020,12,OO,SkyWest Airlines Inc.,SAV,"Savannah, GA: Savannah/Hilton Head International",8.0,1.0,1.0,0.0,0.0,17.0,0.0,DFW,MIA,06:51,06:56,08:00,08:22,delayed
+2020,12,OO,SkyWest Airlines Inc.,SBA,"Santa Barbara, CA: Santa Barbara Municipal",176.0,11.0,9.0,0.0,0.0,301.0,0.0,DEN,MIA,13:49,13:54,15:29,15:41,on-time
+2020,12,OO,SkyWest Airlines Inc.,SBN,"South Bend, IN: South Bend International",240.0,32.0,25.0,2.0,1.0,1494.0,60.0,MIA,SFO,17:30,17:33,18:55,19:02,on-time
+2020,12,OO,SkyWest Airlines Inc.,SBP,"San Luis Obispo, CA: San Luis County Regional",266.0,24.0,16.0,0.0,0.0,741.0,0.0,ORD,DEN,02:28,02:30,03:34,03:36,on-time
+2020,12,OO,SkyWest Airlines Inc.,SCE,"State College, PA: University Park",32.0,10.0,7.0,3.0,0.0,472.0,128.0,ORD,ATL,16:22,16:34,18:03,18:05,on-time
+2020,12,OO,SkyWest Airlines Inc.,SDF,"Louisville, KY: Louisville Muhammad Ali International",30.0,7.0,6.0,0.0,0.0,335.0,0.0,SEA,ATL,12:02,12:04,13:26,13:35,on-time
+2020,12,OO,SkyWest Airlines Inc.,SEA,"Seattle, WA: Seattle/Tacoma International",1883.0,160.0,109.0,35.0,3.0,4687.0,4435.0,MIA,ATL,07:28,07:42,08:30,08:54,delayed
+2020,12,OO,SkyWest Airlines Inc.,SFO,"San Francisco, CA: San Francisco International",2667.0,195.0,125.0,26.0,8.0,9334.0,2294.0,JFK,LAX,06:03,06:11,07:16,07:29,on-time
+2020,12,OO,SkyWest Airlines Inc.,SGF,"Springfield, MO: Springfield-Branson National",114.0,16.0,11.0,2.0,0.0,484.0,129.0,DFW,ORD,05:02,05:11,06:25,06:46,delayed
+2020,12,OO,SkyWest Airlines Inc.,SGU,"St. George, UT: St George Regional",283.0,22.0,17.0,3.0,0.0,1099.0,226.0,SFO,LAX,06:55,06:58,08:03,08:18,on-time
+2020,12,OO,SkyWest Airlines Inc.,SHD,"Staunton, VA: Shenandoah Valley Regional",53.0,11.0,9.0,0.0,0.0,441.0,0.0,SFO,SEA,19:54,19:59,21:43,22:04,delayed
+2020,12,OO,SkyWest Airlines Inc.,SHR,"Sheridan, WY: Sheridan County",53.0,5.0,3.0,0.0,0.0,171.0,0.0,ATL,ORD,00:21,00:24,02:18,02:39,delayed
+2020,12,OO,SkyWest Airlines Inc.,SHV,"Shreveport, LA: Shreveport Regional",133.0,14.0,11.0,1.0,0.0,298.0,21.0,MIA,ATL,14:39,14:53,16:38,16:56,delayed
+2020,12,OO,SkyWest Airlines Inc.,SJC,"San Jose, CA: Norman Y. Mineta San Jose International",607.0,53.0,32.0,7.0,0.0,1458.0,771.0,MIA,LAX,12:33,12:35,14:28,14:37,on-time
+2020,12,OO,SkyWest Airlines Inc.,SLC,"Salt Lake City, UT: Salt Lake City International",4062.0,411.0,316.0,77.0,2.0,26348.0,8651.0,ORD,LAX,20:08,20:16,21:32,21:34,on-time
+2020,12,OO,SkyWest Airlines Inc.,SLN,"Salina, KS: Salina Regional",53.0,6.0,4.0,0.0,0.0,127.0,0.0,SFO,JFK,21:10,21:10,22:50,23:10,delayed
+2020,12,OO,SkyWest Airlines Inc.,SMF,"Sacramento, CA: Sacramento International",398.0,25.0,12.0,7.0,0.0,684.0,470.0,SEA,JFK,00:39,00:54,02:03,02:26,delayed
+2020,12,OO,SkyWest Airlines Inc.,SNA,"Santa Ana, CA: John Wayne Airport-Orange County",229.0,15.0,13.0,0.0,0.0,665.0,0.0,ATL,MIA,20:04,20:10,21:10,21:27,delayed
+2020,12,OO,SkyWest Airlines Inc.,SRQ,"Sarasota/Bradenton, FL: Sarasota/Bradenton International",8.0,2.0,2.0,0.0,0.0,59.0,0.0,ATL,DFW,16:16,16:19,18:10,18:20,on-time
+2020,12,OO,SkyWest Airlines Inc.,STL,"St. Louis, MO: St Louis Lambert International",214.0,24.0,22.0,0.0,0.0,778.0,0.0,SFO,LAX,21:45,21:57,23:11,23:16,on-time
+2020,12,OO,SkyWest Airlines Inc.,STS,"Santa Rosa, CA: Charles M. Schulz - Sonoma County",76.0,3.0,2.0,0.0,0.0,38.0,0.0,DEN,PHX,13:53,14:04,15:10,15:23,on-time
+2020,12,OO,SkyWest Airlines Inc.,SUN,"Sun Valley/Hailey/Ketchum, ID: Friedman Memorial",170.0,34.0,31.0,2.0,1.0,886.0,195.0,SEA,PHX,07:36,07:49,09:19,09:41,delayed
+2020,12,OO,SkyWest Airlines Inc.,SUX,"Sioux City, IA: Sioux Gateway Brig Gen Bud Day Field",29.0,3.0,2.0,0.0,0.0,87.0,0.0,PHX,DEN,06:47,06:55,08:02,08:25,delayed
+2020,12,OO,SkyWest Airlines Inc.,SYR,"Syracuse, NY: Syracuse Hancock International",1.0,0.0,0.0,0.0,0.0,0.0,0.0,DFW,ATL,23:48,00:03,01:14,01:40,delayed
+2020,12,OO,SkyWest Airlines Inc.,TLH,"Tallahassee, FL: Tallahassee International",42.0,7.0,5.0,0.0,0.0,232.0,0.0,DEN,ORD,07:22,07:27,09:21,09:46,delayed
+2020,12,OO,SkyWest Airlines Inc.,TPA,"Tampa, FL: Tampa International",9.0,4.0,3.0,0.0,1.0,130.0,0.0,MIA,SFO,12:29,12:30,14:28,14:44,delayed
+2020,12,OO,SkyWest Airlines Inc.,TRI,"Bristol/Johnson City/Kingsport, TN: Tri Cities",31.0,5.0,1.0,0.0,1.0,103.0,0.0,MIA,SFO,00:19,00:21,02:15,02:18,on-time
+2020,12,OO,SkyWest Airlines Inc.,TUL,"Tulsa, OK: Tulsa International",141.0,28.0,21.0,0.0,1.0,1075.0,0.0,PHX,JFK,06:48,06:51,08:04,08:16,on-time
+2020,12,OO,SkyWest Airlines Inc.,TUS,"Tucson, AZ: Tucson International",462.0,59.0,38.0,9.0,1.0,1995.0,813.0,SEA,JFK,15:27,15:34,16:52,17:08,delayed
+2020,12,OO,SkyWest Airlines Inc.,TVC,"Traverse City, MI: Cherry Capital",90.0,16.0,12.0,4.0,0.0,1535.0,791.0,DFW,SFO,05:55,05:59,07:33,07:33,on-time
+2020,12,OO,SkyWest Airlines Inc.,TWF,"Twin Falls, ID: Joslin Field - Magic Valley Regional",100.0,10.0,10.0,0.0,0.0,326.0,0.0,SEA,DEN,18:26,18:37,19:49,20:00,on-time
+2020,12,OO,SkyWest Airlines Inc.,TYS,"Knoxville, TN: McGhee Tyson",47.0,6.0,5.0,0.0,0.0,143.0,0.0,MIA,JFK,11:13,11:23,13:11,13:36,delayed
+2020,12,OO,SkyWest Airlines Inc.,VCT,"Victoria, TX: Victoria Regional",53.0,6.0,4.0,1.0,0.0,1614.0,58.0,PHX,DFW,23:16,23:17,01:03,01:29,delayed
+2020,12,OO,SkyWest Airlines Inc.,VEL,"Vernal, UT: Vernal Regional",53.0,6.0,2.0,3.0,0.0,61.0,224.0,PHX,SFO,13:41,13:51,15:12,15:22,on-time
+2020,12,OO,SkyWest Airlines Inc.,VPS,"Valparaiso, FL: Eglin AFB Destin Fort Walton Beach",1.0,0.0,0.0,0.0,0.0,0.0,0.0,SFO,ORD,05:39,05:51,07:01,07:26,delayed
+2020,12,OO,SkyWest Airlines Inc.,XNA,"Fayetteville, AR: Northwest Arkansas Regional",31.0,3.0,2.0,1.0,0.0,64.0,35.0,ATL,DFW,01:18,01:30,02:46,02:59,on-time
+2020,12,OO,SkyWest Airlines Inc.,XWA,"Williston, ND: Williston Basin International",57.0,7.0,5.0,0.0,0.0,237.0,0.0,ATL,LAX,06:52,07:04,08:26,08:54,delayed
+2020,12,OO,SkyWest Airlines Inc.,YUM,"Yuma, AZ: Yuma MCAS/Yuma International",125.0,13.0,7.0,0.0,0.0,410.0,0.0,DEN,ORD,19:30,19:39,20:58,21:19,delayed
+2020,12,UA,United Air Lines Inc.,CMH,"Columbus, OH: John Glenn Columbus International",2.0,1.0,0.0,0.0,0.0,0.0,0.0,PHX,DFW,08:17,08:22,10:07,10:32,delayed
+2020,12,UA,United Air Lines Inc.,DTW,"Detroit, MI: Detroit Metro Wayne County",12.0,1.0,1.0,0.0,0.0,51.0,0.0,PHX,ORD,05:03,05:04,06:18,06:44,delayed
+2020,12,UA,United Air Lines Inc.,JAX,"Jacksonville, FL: Jacksonville International",30.0,2.0,1.0,0.0,1.0,19.0,0.0,DEN,SEA,07:13,07:19,08:40,08:48,on-time
+2020,12,UA,United Air Lines Inc.,LIH,"Lihue, HI: Lihue Airport",30.0,0.0,0.0,0.0,0.0,0.0,0.0,LAX,PHX,01:44,01:50,03:38,03:38,on-time
+2020,12,UA,United Air Lines Inc.,MEM,"Memphis, TN: Memphis International",1.0,0.0,0.0,0.0,0.0,0.0,0.0,SFO,JFK,16:57,17:10,18:26,18:33,on-time
+2020,12,UA,United Air Lines Inc.,PWM,"Portland, ME: Portland International Jetport",4.0,0.0,0.0,0.0,0.0,0.0,0.0,DEN,PHX,09:39,09:52,11:28,11:54,delayed
+2020,12,UA,United Air Lines Inc.,ROC,"Rochester, NY: Greater Rochester International",5.0,0.0,0.0,0.0,0.0,0.0,0.0,ATL,SEA,10:53,11:08,11:57,12:10,on-time
+2020,12,UA,United Air Lines Inc.,SPN,"Saipan, TT: Francisco C. Ada Saipan International",13.0,1.0,0.0,1.0,0.0,0.0,24.0,MIA,ATL,05:30,05:39,06:41,06:56,on-time
+2020,12,UA,United Air Lines Inc.,SRQ,"Sarasota/Bradenton, FL: Sarasota/Bradenton International",18.0,2.0,1.0,0.0,1.0,25.0,0.0,LAX,SFO,14:26,14:34,16:06,16:28,delayed
+2020,12,UA,United Air Lines Inc.,STT,"Charlotte Amalie, VI: Cyril E King",55.0,3.0,1.0,0.0,2.0,16.0,0.0,DEN,SEA,05:49,05:52,07:18,07:43,delayed
+2020,12,UA,United Air Lines Inc.,TUS,"Tucson, AZ: Tucson International",12.0,0.0,0.0,0.0,0.0,0.0,0.0,LAX,SEA,15:37,15:37,17:03,17:29,delayed
+2020,12,WN,Southwest Airlines Co.,ITO,"Hilo, HI: Hilo International",93.0,6.0,3.0,0.0,0.0,305.0,0.0,ORD,JFK,06:54,06:58,08:25,08:27,on-time
+2020,12,WN,Southwest Airlines Co.,LIH,"Lihue, HI: Lihue Airport",79.0,1.0,1.0,0.0,0.0,25.0,0.0,SEA,DEN,07:10,07:16,08:37,08:38,on-time
+2020,12,YV,Mesa Airlines Inc.,ABQ,"Albuquerque, NM: Albuquerque International Sunport",46.0,4.0,1.0,0.0,1.0,171.0,0.0,JFK,DEN,23:07,23:17,00:14,00:21,on-time
+2020,12,YV,Mesa Airlines Inc.,ALB,"Albany, NY: Albany International",2.0,1.0,0.0,0.0,1.0,0.0,0.0,PHX,SFO,14:51,14:53,16:10,16:23,on-time
+2020,12,YV,Mesa Airlines Inc.,ATL,"Atlanta, GA: Hartsfield-Jackson Atlanta International",43.0,9.0,2.0,1.0,6.0,35.0,20.0,PHX,MIA,15:54,16:03,17:10,17:26,delayed
+2020,12,YV,Mesa Airlines Inc.,AUS,"Austin, TX: Austin - Bergstrom International",53.0,8.0,3.0,1.0,4.0,216.0,30.0,DFW,SFO,23:24,23:39,01:22,01:26,on-time
+2020,12,YV,Mesa Airlines Inc.,BDL,"Hartford, CT: Bradley International",56.0,9.0,5.0,2.0,2.0,398.0,107.0,SFO,DFW,04:05,04:18,05:21,05:50,delayed
+2020,12,YV,Mesa Airlines Inc.,BMI,"Bloomington/Normal, IL: Central Il Regional Airport at Bloomington",16.0,2.0,1.0,0.0,0.0,65.0,0.0,ORD,PHX,21:26,21:35,22:35,22:42,on-time
+2020,12,YV,Mesa Airlines Inc.,BNA,"Nashville, TN: Nashville International",67.0,8.0,3.0,2.0,3.0,211.0,67.0,ORD,PHX,08:56,09:10,10:50,11:09,delayed
+2020,12,YV,Mesa Airlines Inc.,BOS,"Boston, MA: Logan International",8.0,3.0,0.0,0.0,2.0,0.0,0.0,ATL,LAX,09:26,09:27,10:51,11:07,delayed
+2020,12,YV,Mesa Airlines Inc.,BTR,"Baton Rouge, LA: Baton Rouge Metropolitan/Ryan Field",25.0,5.0,5.0,0.0,0.0,248.0,0.0,MIA,DFW,03:51,03:51,05:30,05:47,delayed
+2020,12,YV,Mesa Airlines Inc.,BTV,"Burlington, VT: Burlington International",12.0,5.0,1.0,1.0,3.0,225.0,26.0,SEA,SFO,11:15,11:26,12:16,12:17,on-time
+2020,12,YV,Mesa Airlines Inc.,BUF,"Buffalo, NY: Buffalo Niagara International",12.0,3.0,1.0,1.0,1.0,44.0,21.0,ATL,LAX,23:39,23:49,01:24,01:44,delayed
+2020,12,YV,Mesa Airlines Inc.,BUR,"Burbank, CA: Bob Hope",17.0,1.0,1.0,0.0,0.0,49.0,0.0,MIA,LAX,13:20,13:31,14:47,14:58,on-time
+2020,12,YV,Mesa Airlines Inc.,BWI,"Baltimore, MD: Baltimore/Washington International Thurgood Marshall",31.0,3.0,1.0,1.0,1.0,112.0,32.0,DFW,PHX,05:33,05:36,07:14,07:18,on-time
+2020,12,YV,Mesa Airlines Inc.,BZN,"Bozeman, MT: Bozeman Yellowstone International",15.0,2.0,1.0,0.0,1.0,41.0,0.0,PHX,SFO,12:09,12:13,13:40,13:52,on-time
+2020,12,YV,Mesa Airlines Inc.,CHS,"Charleston, SC: Charleston AFB/International",73.0,8.0,5.0,1.0,2.0,213.0,26.0,DFW,MIA,10:23,10:27,11:39,11:59,delayed
+2020,12,YV,Mesa Airlines Inc.,CID,"Cedar Rapids/Iowa City, IA: The Eastern Iowa",2.0,0.0,0.0,0.0,0.0,0.0,0.0,DEN,ORD,01:56,01:59,03:01,03:26,delayed
+2020,12,YV,Mesa Airlines Inc.,CLE,"Cleveland, OH: Cleveland-Hopkins International",72.0,7.0,6.0,1.0,0.0,247.0,31.0,SEA,DEN,14:09,14:22,15:47,15:50,on-time
+2020,12,YV,Mesa Airlines Inc.,CLT,"Charlotte, NC: Charlotte Douglas International",86.0,8.0,5.0,0.0,3.0,193.0,0.0,ATL,DFW,00:32,00:42,02:11,02:37,delayed
+2020,12,YV,Mesa Airlines Inc.,CMH,"Columbus, OH: John Glenn Columbus International",113.0,6.0,3.0,0.0,3.0,194.0,0.0,DFW,DEN,13:46,13:56,15:21,15:22,on-time
+2020,12,YV,Mesa Airlines Inc.,CRP,"Corpus Christi, TX: Corpus Christi International",1.0,0.0,0.0,0.0,0.0,0.0,0.0,ORD,DEN,00:24,00:31,02:20,02:26,on-time
+2020,12,YV,Mesa Airlines Inc.,CVG,"Cincinnati, OH: Cincinnati/Northern Kentucky International",72.0,6.0,3.0,0.0,3.0,252.0,0.0,LAX,ORD,08:30,08:37,09:47,10:12,delayed
+2020,12,YV,Mesa Airlines Inc.,DCA,"Washington, DC: Ronald Reagan Washington National",46.0,4.0,4.0,0.0,0.0,169.0,0.0,DFW,LAX,08:00,08:09,09:57,09:57,on-time
+2020,12,YV,Mesa Airlines Inc.,DTW,"Detroit, MI: Detroit Metro Wayne County",85.0,3.0,1.0,0.0,2.0,34.0,0.0,ATL,MIA,06:59,07:07,08:41,09:01,delayed
+2020,12,YV,Mesa Airlines Inc.,EYW,"Key West, FL: Key West International",15.0,2.0,0.0,0.0,2.0,0.0,0.0,MIA,ATL,18:23,18:32,20:15,20:32,delayed
+2020,12,YV,Mesa Airlines Inc.,GJT,"Grand Junction, CO: Grand Junction Regional",2.0,0.0,0.0,0.0,0.0,0.0,0.0,PHX,DFW,17:58,18:03,19:18,19:47,delayed
+2020,12,YV,Mesa Airlines Inc.,GPT,"Gulfport/Biloxi, MS: Gulfport-Biloxi International",2.0,1.0,0.0,0.0,1.0,0.0,0.0,MIA,DFW,04:31,04:39,06:24,06:51,delayed
+2020,12,YV,Mesa Airlines Inc.,GSP,"Greer, SC: Greenville-Spartanburg International",46.0,2.0,0.0,0.0,2.0,0.0,0.0,ORD,MIA,14:15,14:21,16:05,16:23,delayed
+2020,12,YV,Mesa Airlines Inc.,GUC,"Gunnison, CO: Gunnison-Crested Butte Regional",15.0,2.0,1.0,0.0,1.0,80.0,0.0,ATL,MIA,22:21,22:35,23:35,00:05,delayed
+2020,12,YV,Mesa Airlines Inc.,HRL,"Harlingen/San Benito, TX: Valley International",10.0,2.0,1.0,0.0,1.0,51.0,0.0,DFW,PHX,17:38,17:44,19:07,19:37,delayed
+2020,12,YV,Mesa Airlines Inc.,HSV,"Huntsville, AL: Huntsville International-Carl T Jones Field",1.0,1.0,1.0,0.0,0.0,21.0,0.0,MIA,DEN,01:57,02:09,03:47,03:53,on-time
+2020,12,YV,Mesa Airlines Inc.,IAD,"Washington, DC: Washington Dulles International",871.0,102.0,21.0,13.0,67.0,1968.0,1915.0,PHX,JFK,19:34,19:45,21:19,21:29,on-time
+2020,12,YV,Mesa Airlines Inc.,IND,"Indianapolis, IN: Indianapolis International",47.0,3.0,1.0,0.0,2.0,30.0,0.0,SFO,PHX,20:37,20:40,21:43,21:46,on-time
+2020,12,YV,Mesa Airlines Inc.,JAX,"Jacksonville, FL: Jacksonville International",14.0,3.0,2.0,0.0,1.0,251.0,0.0,ORD,LAX,09:19,09:34,11:16,11:35,delayed
+2020,12,YV,Mesa Airlines Inc.,LGA,"New York, NY: LaGuardia",111.0,9.0,3.0,0.0,6.0,244.0,0.0,ATL,DEN,02:02,02:11,04:02,04:05,on-time
+2020,12,YV,Mesa Airlines Inc.,LIT,"Little Rock, AR: Bill and Hillary Clinton Nat Adams Field",36.0,1.0,1.0,0.0,0.0,138.0,0.0,DFW,LAX,21:30,21:36,22:54,22:57,on-time
+2020,12,YV,Mesa Airlines Inc.,MOB,"Mobile, AL: Mobile Regional",1.0,1.0,1.0,0.0,0.0,47.0,0.0,DEN,LAX,16:52,16:56,18:33,18:33,on-time
+2020,12,YV,Mesa Airlines Inc.,MSP,"Minneapolis, MN: Minneapolis-St Paul International",62.0,6.0,3.0,1.0,2.0,128.0,38.0,ATL,JFK,11:50,11:50,13:30,13:51,delayed
+2020,12,YV,Mesa Airlines Inc.,MSY,"New Orleans, LA: Louis Armstrong New Orleans International",91.0,12.0,9.0,0.0,3.0,388.0,0.0,SEA,DFW,04:05,04:18,05:21,05:24,on-time
+2020,12,YV,Mesa Airlines Inc.,OMA,"Omaha, NE: Eppley Airfield",51.0,4.0,1.0,0.0,2.0,38.0,0.0,ORD,ATL,05:57,06:12,07:24,07:45,delayed
+2020,12,YV,Mesa Airlines Inc.,ORF,"Norfolk, VA: Norfolk International",23.0,4.0,2.0,0.0,2.0,213.0,0.0,ORD,ATL,05:05,05:11,07:01,07:15,on-time
+2020,12,YV,Mesa Airlines Inc.,PBI,"West Palm Beach/Palm Beach, FL: Palm Beach International",24.0,7.0,2.0,1.0,4.0,46.0,22.0,JFK,SEA,11:56,12:06,13:14,13:19,on-time
+2020,12,YV,Mesa Airlines Inc.,PHL,"Philadelphia, PA: Philadelphia International",61.0,4.0,2.0,0.0,2.0,73.0,0.0,ORD,MIA,18:45,18:50,19:49,20:08,delayed
+2020,12,YV,Mesa Airlines Inc.,PIT,"Pittsburgh, PA: Pittsburgh International",49.0,4.0,2.0,0.0,2.0,74.0,0.0,SFO,DEN,20:43,20:46,21:50,22:08,delayed
+2020,12,YV,Mesa Airlines Inc.,PSP,"Palm Springs, CA: Palm Springs International",28.0,1.0,0.0,0.0,0.0,0.0,0.0,ATL,DFW,17:30,17:45,18:44,18:44,on-time
+2020,12,YV,Mesa Airlines Inc.,PWM,"Portland, ME: Portland International Jetport",41.0,2.0,1.0,0.0,1.0,25.0,0.0,ATL,SFO,00:41,00:46,02:26,02:42,delayed
+2020,12,YV,Mesa Airlines Inc.,RDU,"Raleigh/Durham, NC: Raleigh-Durham International",77.0,3.0,2.0,0.0,1.0,111.0,0.0,JFK,ATL,06:51,06:52,08:49,09:19,delayed
+2020,12,YV,Mesa Airlines Inc.,RIC,"Richmond, VA: Richmond International",9.0,0.0,0.0,0.0,0.0,0.0,0.0,SEA,ATL,09:28,09:40,10:42,10:51,on-time
+2020,12,YV,Mesa Airlines Inc.,SAN,"San Diego, CA: San Diego International",13.0,1.0,0.0,0.0,1.0,0.0,0.0,ATL,ORD,01:07,01:09,02:48,02:53,on-time
+2020,12,YV,Mesa Airlines Inc.,SAT,"San Antonio, TX: San Antonio International",46.0,8.0,3.0,1.0,4.0,162.0,54.0,DEN,JFK,18:10,18:10,20:04,20:34,delayed
+2020,12,YV,Mesa Airlines Inc.,SAV,"Savannah, GA: Savannah/Hilton Head International",51.0,2.0,2.0,0.0,0.0,185.0,0.0,MIA,SFO,13:43,13:52,15:15,15:37,delayed
+2020,12,YV,Mesa Airlines Inc.,SBA,"Santa Barbara, CA: Santa Barbara Municipal",15.0,2.0,1.0,0.0,0.0,22.0,0.0,PHX,DFW,05:44,05:50,07:18,07:18,on-time
+2020,12,YV,Mesa Airlines Inc.,SJC,"San Jose, CA: Norman Y. Mineta San Jose International",15.0,0.0,0.0,0.0,0.0,0.0,0.0,SEA,MIA,17:19,17:33,18:46,19:00,on-time
+2020,12,YV,Mesa Airlines Inc.,SLC,"Salt Lake City, UT: Salt Lake City International",4.0,0.0,0.0,0.0,0.0,0.0,0.0,JFK,PHX,14:21,14:22,15:30,15:55,delayed
+2020,12,YV,Mesa Airlines Inc.,SMF,"Sacramento, CA: Sacramento International",2.0,0.0,0.0,0.0,0.0,0.0,0.0,ATL,SFO,22:03,22:15,23:52,00:14,delayed
+2020,12,YV,Mesa Airlines Inc.,SRQ,"Sarasota/Bradenton, FL: Sarasota/Bradenton International",39.0,11.0,5.0,0.0,6.0,144.0,0.0,MIA,ORD,02:44,02:44,03:45,03:54,on-time
+2020,12,YV,Mesa Airlines Inc.,STL,"St. Louis, MO: St Louis Lambert International",14.0,1.0,0.0,0.0,1.0,0.0,0.0,SEA,JFK,11:24,11:29,13:17,13:39,delayed
+2020,12,YV,Mesa Airlines Inc.,XNA,"Fayetteville, AR: Northwest Arkansas Regional",58.0,8.0,5.0,1.0,2.0,279.0,29.0,ORD,DEN,06:57,06:59,08:43,09:02,delayed
+2020,12,YX,Republic Airline,ATW,"Appleton, WI: Appleton International",31.0,1.0,0.0,0.0,1.0,0.0,0.0,PHX,JFK,21:38,21:49,23:16,23:33,delayed
+2020,12,YX,Republic Airline,BHM,"Birmingham, AL: Birmingham-Shuttlesworth International",53.0,5.0,3.0,0.0,1.0,183.0,0.0,SEA,SFO,08:55,09:09,10:38,10:50,on-time
+2020,12,YX,Republic Airline,BTV,"Burlington, VT: Burlington International",4.0,0.0,0.0,0.0,0.0,0.0,0.0,ORD,PHX,18:57,19:08,20:07,20:17,on-time
+2020,12,YX,Republic Airline,BWI,"Baltimore, MD: Baltimore/Washington International Thurgood Marshall",34.0,1.0,0.0,0.0,0.0,0.0,0.0,ORD,SFO,04:47,04:50,06:31,06:41,on-time
+2020,12,YX,Republic Airline,BZN,"Bozeman, MT: Bozeman Yellowstone International",16.0,0.0,0.0,0.0,0.0,0.0,0.0,ATL,PHX,14:28,14:39,15:57,16:13,delayed
+2020,12,YX,Republic Airline,CHA,"Chattanooga, TN: Lovell Field",15.0,3.0,0.0,0.0,1.0,0.0,0.0,JFK,SEA,10:22,10:26,11:40,11:59,delayed
+2020,12,YX,Republic Airline,CID,"Cedar Rapids/Iowa City, IA: The Eastern Iowa",6.0,2.0,1.0,0.0,1.0,15.0,0.0,DEN,MIA,16:27,16:33,18:17,18:47,delayed
+2020,12,YX,Republic Airline,ECP,"Panama City, FL: Northwest Florida Beaches International",15.0,0.0,0.0,0.0,0.0,0.0,0.0,DFW,PHX,11:44,11:45,12:48,13:17,delayed
+2020,12,YX,Republic Airline,ELP,"El Paso, TX: El Paso International",13.0,0.0,0.0,0.0,0.0,0.0,0.0,ORD,MIA,11:26,11:39,12:58,13:19,delayed
+2020,12,YX,Republic Airline,FAR,"Fargo, ND: Hector International",21.0,1.0,0.0,0.0,1.0,0.0,0.0,PHX,LAX,12:00,12:04,13:03,13:14,on-time
+2020,12,YX,Republic Airline,FLL,"Fort Lauderdale, FL: Fort Lauderdale-Hollywood International",2.0,1.0,0.0,0.0,1.0,0.0,0.0,ATL,SFO,23:55,00:07,00:58,01:10,on-time
+2020,12,YX,Republic Airline,FSD,"Sioux Falls, SD: Joe Foss Field",2.0,0.0,0.0,0.0,0.0,0.0,0.0,LAX,ORD,00:18,00:25,01:47,02:03,delayed
+2020,12,YX,Republic Airline,GRB,"Green Bay, WI: Green Bay Austin Straubel International",10.0,0.0,0.0,0.0,0.0,0.0,0.0,JFK,DEN,18:35,18:38,20:07,20:36,delayed
+2020,12,YX,Republic Airline,GSO,"Greensboro/High Point, NC: Piedmont Triad International",1.0,1.0,0.0,0.0,1.0,0.0,0.0,JFK,LAX,09:58,10:08,11:10,11:36,delayed
+2020,12,YX,Republic Airline,HDN,"Hayden, CO: Yampa Valley",13.0,1.0,0.0,0.0,1.0,0.0,0.0,SFO,SEA,21:20,21:29,23:08,23:26,delayed
+2020,12,YX,Republic Airline,ICT,"Wichita, KS: Wichita Dwight D Eisenhower National",27.0,0.0,0.0,0.0,0.0,0.0,0.0,DEN,SFO,12:42,12:46,14:36,14:42,on-time
+2020,12,YX,Republic Airline,LAN,"Lansing, MI: Capital Region International",1.0,0.0,0.0,0.0,0.0,0.0,0.0,SFO,ORD,23:18,23:23,00:38,00:40,on-time
+2020,12,YX,Republic Airline,LIT,"Little Rock, AR: Bill and Hillary Clinton Nat Adams Field",9.0,0.0,0.0,0.0,0.0,0.0,0.0,LAX,PHX,16:41,16:55,17:51,17:58,on-time
+2020,12,YX,Republic Airline,LNK,"Lincoln, NE: Lincoln Airport",12.0,1.0,1.0,0.0,0.0,22.0,0.0,DEN,MIA,20:56,20:58,22:20,22:29,on-time
+2020,12,YX,Republic Airline,MCO,"Orlando, FL: Orlando International",12.0,1.0,0.0,0.0,0.0,0.0,0.0,MIA,PHX,19:45,19:57,21:27,21:44,delayed
+2020,12,YX,Republic Airline,MLI,"Moline, IL: Quad City International",19.0,1.0,1.0,0.0,0.0,114.0,0.0,PHX,SEA,05:54,05:59,07:24,07:44,delayed
+2020,12,YX,Republic Airline,MSN,"Madison, WI: Dane County Regional-Truax Field",36.0,3.0,0.0,0.0,2.0,0.0,0.0,JFK,DEN,19:52,19:58,21:39,22:08,delayed
+2019,12,EV,ExpressJet Airlines LLC,BDL,"Hartford, CT: Bradley International",14.0,4.0,2.0,0.0,0.0,61.0,0.0,LAX,MIA,04:04,04:10,05:27,05:34,on-time
+2019,12,EV,ExpressJet Airlines LLC,CID,"Cedar Rapids/Iowa City, IA: The Eastern Iowa",2.0,0.0,0.0,0.0,0.0,0.0,0.0,JFK,SFO,11:02,11:15,12:16,12:24,on-time
+2019,12,EV,ExpressJet Airlines LLC,CRW,"Charleston/Dunbar, WV: Yeager",1.0,0.0,0.0,0.0,0.0,0.0,0.0,JFK,SFO,11:43,11:46,13:08,13:18,on-time
+2019,12,EV,ExpressJet Airlines LLC,DSM,"Des Moines, IA: Des Moines International",1.0,0.0,0.0,0.0,0.0,0.0,0.0,PHX,ORD,23:11,23:13,00:40,00:48,on-time
+2019,12,EV,ExpressJet Airlines LLC,ERI,"Erie, PA: Erie International/Tom Ridge Field",16.0,1.0,0.0,0.0,0.0,0.0,0.0,MIA,ATL,10:44,10:45,12:17,12:36,delayed
+2019,12,EV,ExpressJet Airlines LLC,EVV,"Evansville, IN: Evansville Regional",1.0,0.0,0.0,0.0,0.0,0.0,0.0,ATL,DEN,12:23,12:34,14:00,14:24,delayed
+2019,12,EV,ExpressJet Airlines LLC,FSD,"Sioux Falls, SD: Joe Foss Field",15.0,0.0,0.0,0.0,0.0,0.0,0.0,DFW,ATL,16:56,16:56,18:49,19:17,delayed
+2019,12,EV,ExpressJet Airlines LLC,HDN,"Hayden, CO: Yampa Valley",4.0,0.0,0.0,0.0,0.0,0.0,0.0,JFK,DEN,00:23,00:29,01:45,02:11,delayed
+2019,12,EV,ExpressJet Airlines LLC,LAN,"Lansing, MI: Capital Region International",2.0,1.0,0.0,0.0,1.0,0.0,0.0,SEA,ORD,15:35,15:46,16:47,17:09,delayed
+2019,12,EV,ExpressJet Airlines LLC,MDT,"Harrisburg, PA: Harrisburg International",9.0,3.0,1.0,0.0,1.0,257.0,0.0,PHX,ATL,07:57,08:01,09:11,09:34,delayed
+2019,12,EV,ExpressJet Airlines LLC,MTJ,"Montrose/Delta, CO: Montrose Regional",7.0,1.0,0.0,1.0,0.0,0.0,142.0,MIA,DFW,05:05,05:15,06:50,07:18,delayed
+2019,12,EV,ExpressJet Airlines LLC,ROA,"Roanoke, VA: Roanoke Blacksburg Regional Woodrum Field",1.0,1.0,1.0,0.0,0.0,92.0,0.0,JFK,SEA,02:15,02:20,03:37,03:42,on-time
+2019,12,EV,ExpressJet Airlines LLC,SGF,"Springfield, MO: Springfield-Branson National",2.0,0.0,0.0,0.0,0.0,0.0,0.0,PHX,DFW,00:49,01:01,02:47,03:13,delayed
+2019,12,EV,ExpressJet Airlines LLC,SLC,"Salt Lake City, UT: Salt Lake City International",4.0,0.0,0.0,0.0,0.0,0.0,0.0,DEN,DFW,22:18,22:23,23:33,23:48,on-time
+2019,12,EV,ExpressJet Airlines LLC,TVC,"Traverse City, MI: Cherry Capital",2.0,0.0,0.0,0.0,0.0,0.0,0.0,DFW,MIA,19:18,19:30,20:21,20:32,on-time
+2019,12,F9,Frontier Airlines Inc.,BFM,"Mobile, AL: Mobile Downtown",12.0,0.0,0.0,0.0,0.0,0.0,0.0,DEN,PHX,19:22,19:34,20:50,20:50,on-time
+2019,12,F9,Frontier Airlines Inc.,GRB,"Green Bay, WI: Green Bay Austin Straubel International",14.0,4.0,0.0,1.0,3.0,0.0,58.0,ATL,DEN,09:55,10:10,11:19,11:47,delayed
+2019,12,F9,Frontier Airlines Inc.,LIT,"Little Rock, AR: Bill and Hillary Clinton Nat Adams Field",10.0,1.0,1.0,0.0,0.0,36.0,0.0,PHX,MIA,07:19,07:22,08:47,09:13,delayed
+2019,12,F9,Frontier Airlines Inc.,PIT,"Pittsburgh, PA: Pittsburgh International",14.0,2.0,1.0,0.0,0.0,125.0,0.0,PHX,ATL,15:02,15:03,16:36,16:50,on-time
+2019,12,F9,Frontier Airlines Inc.,PNS,"Pensacola, FL: Pensacola International",12.0,1.0,0.0,0.0,1.0,0.0,0.0,JFK,LAX,17:50,18:01,19:02,19:10,on-time
+2019,12,F9,Frontier Airlines Inc.,SDF,"Louisville, KY: Louisville Muhammad Ali International",14.0,1.0,1.0,0.0,0.0,15.0,0.0,DEN,SFO,15:16,15:18,16:44,17:05,delayed
+2019,12,F9,Frontier Airlines Inc.,TYR,"Tyler, TX: Tyler Pounds Regional",9.0,1.0,1.0,0.0,0.0,30.0,0.0,DFW,JFK,11:18,11:27,12:43,12:54,on-time
+2019,12,F9,Frontier Airlines Inc.,TYS,"Knoxville, TN: McGhee Tyson",21.0,0.0,0.0,0.0,0.0,0.0,0.0,MIA,JFK,03:37,03:51,04:49,05:17,delayed
+2019,12,F9,Frontier Airlines Inc.,XNA,"Fayetteville, AR: Northwest Arkansas Regional",14.0,1.0,0.0,0.0,0.0,0.0,0.0,PHX,DFW,05:54,06:00,07:10,07:24,on-time
+2019,12,G4,Allegiant Air,DAY,"Dayton, OH: James M Cox/Dayton International",8.0,1.0,1.0,0.0,0.0,66.0,0.0,ATL,JFK,05:34,05:37,06:52,07:09,delayed
+2019,12,G4,Allegiant Air,ELM,"Elmira/Corning, NY: Elmira/Corning Regional",37.0,1.0,0.0,1.0,0.0,0.0,62.0,SFO,ATL,11:33,11:46,12:53,13:08,on-time
+2019,12,G4,Allegiant Air,GPT,"Gulfport/Biloxi, MS: Gulfport-Biloxi International",8.0,1.0,1.0,0.0,0.0,51.0,0.0,JFK,PHX,19:54,20:08,21:11,21:17,on-time
+2019,12,G4,Allegiant Air,GSO,"Greensboro/High Point, NC: Piedmont Triad International",21.0,4.0,3.0,0.0,1.0,93.0,0.0,ATL,JFK,09:11,09:23,11:05,11:33,delayed
+2019,12,G4,Allegiant Air,LIT,"Little Rock, AR: Bill and Hillary Clinton Nat Adams Field",11.0,1.0,0.0,0.0,1.0,0.0,0.0,JFK,LAX,21:55,22:03,23:55,00:09,on-time
+2019,12,G4,Allegiant Air,LRD,"Laredo, TX: Laredo International",9.0,0.0,0.0,0.0,0.0,0.0,0.0,MIA,DFW,23:35,23:38,01:19,01:47,delayed
+2019,12,G4,Allegiant Air,MTJ,"Montrose/Delta, CO: Montrose Regional",4.0,0.0,0.0,0.0,0.0,0.0,0.0,DEN,SEA,08:10,08:14,09:23,09:23,on-time
+2019,12,G4,Allegiant Air,OGD,"Ogden, UT: Ogden-Hinckley",9.0,1.0,1.0,0.0,0.0,20.0,0.0,DFW,PHX,19:29,19:36,21:06,21:11,on-time
+2019,12,G4,Allegiant Air,PSP,"Palm Springs, CA: Palm Springs International",15.0,2.0,1.0,0.0,1.0,56.0,0.0,JFK,MIA,07:38,07:43,09:08,09:17,on-time
+2019,12,G4,Allegiant Air,SAT,"San Antonio, TX: San Antonio International",9.0,2.0,1.0,0.0,1.0,22.0,0.0,LAX,DEN,22:04,22:04,23:16,23:46,delayed
+2019,12,G4,Allegiant Air,TVC,"Traverse City, MI: Cherry Capital",36.0,2.0,1.0,0.0,0.0,15.0,0.0,SEA,DFW,02:39,02:51,04:24,04:37,on-time
+2019,12,HA,Hawaiian Airlines Inc.,BOS,"Boston, MA: Logan International",22.0,7.0,6.0,1.0,0.0,245.0,22.0,SFO,SEA,18:25,18:36,19:37,19:51,on-time
+2019,12,HA,Hawaiian Airlines Inc.,LGB,"Long Beach, CA: Long Beach Airport",31.0,8.0,8.0,0.0,0.0,547.0,0.0,SFO,SEA,08:43,08:53,10:34,10:35,on-time
+2019,12,HA,Hawaiian Airlines Inc.,PHX,"Phoenix, AZ: Phoenix Sky Harbor International",31.0,6.0,6.0,0.0,0.0,178.0,0.0,ATL,MIA,04:48,04:51,06:10,06:32,delayed
+2019,12,HA,Hawaiian Airlines Inc.,PPG,"Pago Pago, TT: Pago Pago International",11.0,1.0,0.0,0.0,0.0,0.0,0.0,ATL,DEN,00:31,00:42,02:01,02:18,delayed
+2019,12,HA,Hawaiian Airlines Inc.,SAN,"San Diego, CA: San Diego International",62.0,11.0,11.0,0.0,0.0,293.0,0.0,ATL,DFW,02:39,02:46,04:30,04:41,on-time
+2019,12,MQ,Envoy Air,ABQ,"Albuquerque, NM: Albuquerque International Sunport",1.0,0.0,0.0,0.0,0.0,0.0,0.0,LAX,DFW,18:41,18:45,19:52,20:06,on-time
+2019,12,MQ,Envoy Air,AUS,"Austin, TX: Austin - Bergstrom International",2.0,0.0,0.0,0.0,0.0,0.0,0.0,SEA,ORD,11:50,11:50,12:58,13:18,delayed
+2019,12,MQ,Envoy Air,JAN,"Jackson/Vicksburg, MS: Jackson Medgar Wiley Evers International",1.0,0.0,0.0,0.0,0.0,0.0,0.0,LAX,ATL,00:53,01:00,02:48,02:49,on-time
+2019,12,MQ,Envoy Air,MTJ,"Montrose/Delta, CO: Montrose Regional",14.0,2.0,0.0,0.0,0.0,0.0,0.0,ORD,SFO,16:37,16:40,18:24,18:40,delayed
+2019,12,MQ,Envoy Air,PGV,"Greenville, NC: Pitt Greenville",2.0,0.0,0.0,0.0,0.0,0.0,0.0,LAX,ORD,03:59,04:14,05:35,05:52,delayed
+2019,12,MQ,Envoy Air,ROW,"Roswell, NM: Roswell International Air Center",13.0,1.0,0.0,0.0,0.0,0.0,0.0,DEN,JFK,16:30,16:43,17:35,17:39,on-time
+2019,12,YV,Mesa Airlines Inc.,ALB,"Albany, NY: Albany International",12.0,3.0,1.0,0.0,1.0,28.0,0.0,ATL,DFW,05:47,05:57,07:25,07:40,on-time
+2019,12,YV,Mesa Airlines Inc.,ATL,"Atlanta, GA: Hartsfield-Jackson Atlanta International",154.0,28.0,14.0,2.0,4.0,1862.0,98.0,MIA,DEN,04:20,04:34,05:59,06:04,on-time
+2019,12,YV,Mesa Airlines Inc.,AUS,"Austin, TX: Austin - Bergstrom International",135.0,28.0,12.0,0.0,8.0,986.0,0.0,JFK,ATL,15:22,15:37,16:24,16:46,delayed
+2019,12,YV,Mesa Airlines Inc.,BDL,"Hartford, CT: Bradley International",105.0,21.0,12.0,0.0,3.0,630.0,0.0,JFK,MIA,03:44,03:48,04:58,05:05,on-time
+2019,12,YV,Mesa Airlines Inc.,BNA,"Nashville, TN: Nashville International",111.0,21.0,9.0,1.0,2.0,420.0,91.0,SFO,ATL,08:30,08:34,10:03,10:20,delayed
+2019,12,YV,Mesa Airlines Inc.,BOS,"Boston, MA: Logan International",15.0,2.0,2.0,0.0,0.0,87.0,0.0,LAX,ATL,14:10,14:15,15:42,15:50,on-time
+2019,12,YV,Mesa Airlines Inc.,BRO,"Brownsville, TX: Brownsville South Padre Island International",41.0,5.0,3.0,0.0,0.0,79.0,0.0,JFK,MIA,16:45,16:59,17:45,18:08,delayed
+2019,12,YV,Mesa Airlines Inc.,BTR,"Baton Rouge, LA: Baton Rouge Metropolitan/Ryan Field",54.0,5.0,3.0,2.0,0.0,59.0,375.0,PHX,MIA,16:06,16:20,17:35,17:42,on-time
+2019,12,YV,Mesa Airlines Inc.,BTV,"Burlington, VT: Burlington International",58.0,10.0,5.0,0.0,0.0,329.0,0.0,JFK,LAX,07:03,07:03,08:14,08:24,on-time
+2019,12,YV,Mesa Airlines Inc.,BUF,"Buffalo, NY: Buffalo Niagara International",35.0,7.0,3.0,0.0,3.0,550.0,0.0,DFW,MIA,09:17,09:32,10:25,10:33,on-time
+2019,12,YV,Mesa Airlines Inc.,BZN,"Bozeman, MT: Bozeman Yellowstone International",13.0,3.0,1.0,1.0,1.0,27.0,16.0,DEN,LAX,18:47,18:57,20:26,20:42,delayed
+2019,12,YV,Mesa Airlines Inc.,CAK,"Akron, OH: Akron-Canton Regional",31.0,9.0,7.0,1.0,0.0,473.0,746.0,SEA,LAX,21:39,21:46,22:53,22:53,on-time
+2019,12,YV,Mesa Airlines Inc.,CLE,"Cleveland, OH: Cleveland-Hopkins International",35.0,5.0,2.0,0.0,1.0,83.0,0.0,MIA,DEN,13:40,13:44,15:07,15:08,on-time
+2019,12,YV,Mesa Airlines Inc.,CLT,"Charlotte, NC: Charlotte Douglas International",194.0,43.0,20.0,2.0,9.0,1802.0,161.0,LAX,DEN,01:19,01:19,02:28,02:41,on-time
+2019,12,YV,Mesa Airlines Inc.,CMH,"Columbus, OH: John Glenn Columbus International",115.0,20.0,9.0,1.0,3.0,379.0,257.0,SEA,LAX,06:49,06:55,08:42,09:08,delayed
+2019,12,YV,Mesa Airlines Inc.,COS,"Colorado Springs, CO: City of Colorado Springs Municipal",6.0,0.0,0.0,0.0,0.0,0.0,0.0,MIA,LAX,18:30,18:44,19:44,20:09,delayed
+2019,12,YV,Mesa Airlines Inc.,CVG,"Cincinnati, OH: Cincinnati/Northern Kentucky International",82.0,16.0,8.0,0.0,1.0,808.0,0.0,LAX,ORD,21:57,22:01,23:54,23:56,on-time
+2019,12,YV,Mesa Airlines Inc.,DAY,"Dayton, OH: James M Cox/Dayton International",45.0,6.0,3.0,0.0,0.0,141.0,0.0,ORD,MIA,22:59,23:07,00:51,01:03,on-time
+2019,12,YV,Mesa Airlines Inc.,DCA,"Washington, DC: Ronald Reagan Washington National",90.0,19.0,10.0,0.0,3.0,586.0,0.0,MIA,DEN,20:48,21:03,22:28,22:49,delayed
+2019,12,YV,Mesa Airlines Inc.,DTW,"Detroit, MI: Detroit Metro Wayne County",203.0,31.0,19.0,1.0,3.0,1682.0,193.0,DFW,ORD,19:42,19:45,20:43,20:51,on-time
+2019,12,YV,Mesa Airlines Inc.,FLL,"Fort Lauderdale, FL: Fort Lauderdale-Hollywood International",13.0,2.0,0.0,0.0,1.0,0.0,0.0,LAX,ATL,14:28,14:32,15:39,16:05,delayed
+2019,12,YV,Mesa Airlines Inc.,GJT,"Grand Junction, CO: Grand Junction Regional",4.0,0.0,0.0,0.0,0.0,0.0,0.0,PHX,DFW,09:14,09:18,10:16,10:17,on-time
+2019,12,YV,Mesa Airlines Inc.,GRR,"Grand Rapids, MI: Gerald R. Ford International",15.0,2.0,1.0,0.0,0.0,149.0,0.0,LAX,SEA,04:32,04:36,05:56,06:22,delayed
+2019,12,YV,Mesa Airlines Inc.,GSP,"Greer, SC: Greenville-Spartanburg International",76.0,18.0,8.0,0.0,1.0,683.0,0.0,MIA,JFK,06:12,06:19,07:51,08:04,on-time
+2019,12,YV,Mesa Airlines Inc.,GUC,"Gunnison, CO: Gunnison-Crested Butte Regional",13.0,1.0,1.0,0.0,0.0,99.0,0.0,LAX,DEN,14:11,14:15,15:36,15:53,delayed
+2019,12,YV,Mesa Airlines Inc.,HRL,"Harlingen/San Benito, TX: Valley International",50.0,9.0,7.0,0.0,0.0,475.0,0.0,LAX,ORD,03:12,03:22,04:35,04:45,on-time
+2019,12,YV,Mesa Airlines Inc.,IAD,"Washington, DC: Washington Dulles International",1659.0,344.0,91.0,32.0,81.0,11161.0,1971.0,SEA,JFK,22:09,22:09,23:09,23:38,delayed
+2019,12,YV,Mesa Airlines Inc.,IND,"Indianapolis, IN: Indianapolis International",51.0,9.0,6.0,0.0,0.0,527.0,0.0,SEA,SFO,14:48,15:03,16:47,17:12,delayed
+2019,12,YV,Mesa Airlines Inc.,JLN,"Joplin, MO: Joplin Regional",6.0,0.0,0.0,0.0,0.0,0.0,0.0,SFO,SEA,11:30,11:30,13:30,13:32,on-time
+2019,12,YV,Mesa Airlines Inc.,LGA,"New York, NY: LaGuardia",114.0,37.0,16.0,0.0,11.0,1639.0,0.0,SFO,LAX,05:11,05:19,06:22,06:51,delayed
+2019,12,YV,Mesa Airlines Inc.,LIT,"Little Rock, AR: Bill and Hillary Clinton Nat Adams Field",35.0,8.0,3.0,2.0,1.0,129.0,54.0,SEA,JFK,12:18,12:19,13:52,14:02,on-time
+2019,12,YV,Mesa Airlines Inc.,MDT,"Harrisburg, PA: Harrisburg International",19.0,2.0,1.0,0.0,1.0,39.0,0.0,DFW,SEA,20:20,20:32,21:50,22:10,delayed
+2019,12,YV,Mesa Airlines Inc.,MHT,"Manchester, NH: Manchester-Boston Regional",35.0,8.0,2.0,1.0,1.0,133.0,15.0,MIA,DFW,17:42,17:45,19:35,19:44,on-time
+2019,12,YV,Mesa Airlines Inc.,MIA,"Miami, FL: Miami International",2.0,2.0,1.0,0.0,1.0,55.0,0.0,JFK,DEN,09:43,09:45,11:06,11:33,delayed
+2019,12,YV,Mesa Airlines Inc.,MSP,"Minneapolis, MN: Minneapolis-St Paul International",134.0,31.0,15.0,1.0,3.0,2022.0,15.0,DEN,SFO,07:57,07:57,09:51,10:20,delayed
+2019,12,YV,Mesa Airlines Inc.,MSY,"New Orleans, LA: Louis Armstrong New Orleans International",22.0,8.0,3.0,2.0,2.0,177.0,153.0,MIA,LAX,02:37,02:45,04:33,04:45,on-time
+2019,12,YV,Mesa Airlines Inc.,OMA,"Omaha, NE: Eppley Airfield",20.0,6.0,3.0,0.0,1.0,114.0,0.0,ORD,SEA,19:43,19:52,21:16,21:44,delayed
+2019,12,YV,Mesa Airlines Inc.,ORF,"Norfolk, VA: Norfolk International",94.0,15.0,9.0,0.0,1.0,600.0,0.0,ORD,DFW,12:00,12:13,13:44,13:47,on-time
+2019,12,YV,Mesa Airlines Inc.,PBI,"West Palm Beach/Palm Beach, FL: Palm Beach International",14.0,2.0,0.0,0.0,1.0,0.0,0.0,ORD,JFK,02:52,02:58,04:42,04:45,on-time
+2019,12,YV,Mesa Airlines Inc.,PHL,"Philadelphia, PA: Philadelphia International",51.0,9.0,4.0,1.0,3.0,439.0,44.0,JFK,MIA,21:00,21:00,22:45,23:08,delayed
+2019,12,YV,Mesa Airlines Inc.,PIT,"Pittsburgh, PA: Pittsburgh International",96.0,13.0,6.0,1.0,3.0,603.0,105.0,ATL,SFO,18:23,18:37,19:55,20:24,delayed
+2019,12,YV,Mesa Airlines Inc.,PVD,"Providence, RI: Theodore Francis Green State",66.0,14.0,8.0,1.0,0.0,951.0,35.0,SFO,LAX,23:13,23:22,01:12,01:42,delayed
+2019,12,YV,Mesa Airlines Inc.,PWM,"Portland, ME: Portland International Jetport",1.0,0.0,0.0,0.0,0.0,0.0,0.0,ATL,ORD,09:32,09:43,11:30,11:41,on-time
+2019,12,YV,Mesa Airlines Inc.,RDU,"Raleigh/Durham, NC: Raleigh-Durham International",63.0,15.0,8.0,0.0,3.0,777.0,0.0,ORD,SFO,20:26,20:28,21:33,21:38,on-time
+2019,12,YV,Mesa Airlines Inc.,RIC,"Richmond, VA: Richmond International",41.0,12.0,5.0,1.0,1.0,378.0,48.0,DEN,PHX,23:08,23:14,00:34,00:52,delayed
+2019,12,YV,Mesa Airlines Inc.,ROA,"Roanoke, VA: Roanoke Blacksburg Regional Woodrum Field",19.0,1.0,1.0,0.0,0.0,197.0,0.0,MIA,DEN,21:18,21:20,22:33,22:39,on-time
+2019,12,YV,Mesa Airlines Inc.,ROC,"Rochester, NY: Greater Rochester International",55.0,11.0,4.0,0.0,1.0,1305.0,0.0,JFK,PHX,19:32,19:38,20:32,20:39,on-time
+2019,12,YV,Mesa Airlines Inc.,RSW,"Fort Myers, FL: Southwest Florida International",11.0,4.0,2.0,1.0,1.0,55.0,31.0,MIA,SEA,16:13,16:18,17:16,17:22,on-time
+2019,12,YV,Mesa Airlines Inc.,SAT,"San Antonio, TX: San Antonio International",23.0,3.0,2.0,0.0,0.0,48.0,0.0,SEA,SFO,02:06,02:20,03:38,04:06,delayed
+2019,12,YV,Mesa Airlines Inc.,SAV,"Savannah, GA: Savannah/Hilton Head International",81.0,22.0,10.0,0.0,1.0,1249.0,0.0,SFO,DFW,10:13,10:25,11:36,11:44,on-time
+2019,12,YV,Mesa Airlines Inc.,SLC,"Salt Lake City, UT: Salt Lake City International",48.0,10.0,7.0,0.0,3.0,363.0,0.0,DEN,SEA,15:30,15:45,16:36,16:40,on-time
+2019,12,YV,Mesa Airlines Inc.,SRQ,"Sarasota/Bradenton, FL: Sarasota/Bradenton International",31.0,5.0,3.0,0.0,1.0,899.0,0.0,ATL,LAX,07:06,07:13,08:11,08:18,on-time
+2019,12,YV,Mesa Airlines Inc.,STL,"St. Louis, MO: St Louis Lambert International",38.0,9.0,4.0,0.0,2.0,1015.0,0.0,SFO,ATL,18:37,18:40,20:27,20:31,on-time
+2019,12,YV,Mesa Airlines Inc.,SYR,"Syracuse, NY: Syracuse Hancock International",27.0,4.0,2.0,0.0,0.0,806.0,0.0,ATL,JFK,13:39,13:50,15:37,15:44,on-time
+2019,12,YV,Mesa Airlines Inc.,TPA,"Tampa, FL: Tampa International",1.0,0.0,0.0,0.0,0.0,0.0,0.0,DEN,ORD,13:38,13:39,14:58,15:07,on-time
+2019,12,YV,Mesa Airlines Inc.,XNA,"Fayetteville, AR: Northwest Arkansas Regional",48.0,11.0,6.0,1.0,1.0,374.0,33.0,DEN,SEA,14:52,14:53,16:37,16:38,on-time
+2019,12,YX,Republic Airline,AVL,"Asheville, NC: Asheville Regional",9.0,1.0,0.0,0.0,1.0,0.0,0.0,JFK,DEN,19:39,19:44,21:20,21:42,delayed
+2019,12,YX,Republic Airline,BGR,"Bangor, ME: Bangor International",2.0,0.0,0.0,0.0,0.0,0.0,0.0,ATL,DEN,18:52,19:05,19:53,20:17,delayed
+2019,12,YX,Republic Airline,BIL,"Billings, MT: Billings Logan International",1.0,0.0,0.0,0.0,0.0,0.0,0.0,SEA,DEN,14:35,14:49,16:05,16:23,delayed
+2019,12,YX,Republic Airline,BRO,"Brownsville, TX: Brownsville South Padre Island International",6.0,0.0,0.0,0.0,0.0,0.0,0.0,MIA,DEN,21:28,21:43,23:24,23:30,on-time
+2019,12,YX,Republic Airline,BZN,"Bozeman, MT: Bozeman Yellowstone International",2.0,0.0,0.0,0.0,0.0,0.0,0.0,DEN,ORD,17:33,17:45,19:06,19:24,delayed
+2019,12,YX,Republic Airline,CAE,"Columbia, SC: Columbia Metropolitan",14.0,1.0,0.0,0.0,0.0,0.0,0.0,PHX,SEA,16:13,16:17,18:02,18:25,delayed
+2019,12,YX,Republic Airline,DAB,"Daytona Beach, FL: Daytona Beach International",2.0,0.0,0.0,0.0,0.0,0.0,0.0,DFW,LAX,03:50,04:05,05:39,05:45,on-time
+2019,12,YX,Republic Airline,GRB,"Green Bay, WI: Green Bay Austin Straubel International",11.0,2.0,0.0,0.0,1.0,0.0,3.0,JFK,SEA,22:17,22:25,23:30,23:36,on-time
+2019,12,YX,Republic Airline,HRL,"Harlingen/San Benito, TX: Valley International",2.0,0.0,0.0,0.0,0.0,0.0,0.0,SEA,MIA,14:59,15:06,16:23,16:28,on-time
+2019,12,YX,Republic Airline,LIT,"Little Rock, AR: Bill and Hillary Clinton Nat Adams Field",14.0,2.0,2.0,0.0,0.0,284.0,0.0,SEA,JFK,16:01,16:09,17:23,17:49,delayed
+2019,12,YX,Republic Airline,LNK,"Lincoln, NE: Lincoln Airport",2.0,0.0,0.0,0.0,0.0,0.0,0.0,DFW,JFK,23:41,23:56,00:45,00:50,on-time
+2019,12,YX,Republic Airline,MCO,"Orlando, FL: Orlando International",12.0,1.0,0.0,0.0,1.0,0.0,0.0,PHX,SFO,15:32,15:37,16:47,16:59,on-time
+2019,12,YX,Republic Airline,MFE,"Mission/McAllen/Edinburg, TX: McAllen Miller International",3.0,0.0,0.0,0.0,0.0,0.0,0.0,SFO,DEN,00:39,00:47,02:38,02:52,on-time
+2019,12,YX,Republic Airline,PNS,"Pensacola, FL: Pensacola International",20.0,4.0,1.0,0.0,2.0,50.0,0.0,LAX,ORD,13:41,13:54,14:57,15:18,delayed
+2019,12,YX,Republic Airline,SAV,"Savannah, GA: Savannah/Hilton Head International",7.0,1.0,0.0,0.0,1.0,0.0,0.0,DEN,ORD,06:53,06:53,08:19,08:26,on-time
+2019,12,YX,Republic Airline,TPA,"Tampa, FL: Tampa International",3.0,0.0,0.0,0.0,0.0,0.0,0.0,LAX,SEA,00:04,00:14,01:27,01:47,delayed
+2019,12,YX,Republic Airline,TVC,"Traverse City, MI: Cherry Capital",2.0,0.0,0.0,0.0,0.0,0.0,0.0,SEA,LAX,00:21,00:28,01:26,01:53,delayed
+2019,12,YX,Republic Airline,VPS,"Valparaiso, FL: Eglin AFB Destin Fort Walton Beach",4.0,1.0,0.0,0.0,1.0,0.0,0.0,LAX,ATL,20:41,20:53,21:43,21:53,on-time
+2019,12,OH,PSA Airlines Inc.,IAH,"Houston, TX: George Bush Intercontinental/Houston",9.0,0.0,0.0,0.0,0.0,0.0,0.0,DFW,ATL,19:57,20:12,21:17,21:27,on-time
+2019,12,OH,PSA Airlines Inc.,MSY,"New Orleans, LA: Louis Armstrong New Orleans International",11.0,1.0,0.0,0.0,1.0,0.0,0.0,ORD,JFK,06:52,06:59,08:42,09:03,delayed
+2019,12,OO,SkyWest Airlines Inc.,ACT,"Waco, TX: Waco Regional",12.0,2.0,0.0,0.0,0.0,0.0,0.0,PHX,LAX,00:04,00:10,02:03,02:26,delayed
+2019,12,OO,SkyWest Airlines Inc.,AMA,"Amarillo, TX: Rick Husband Amarillo International",3.0,1.0,0.0,0.0,0.0,0.0,0.0,MIA,ATL,04:10,04:22,05:11,05:21,on-time
+2019,12,OO,SkyWest Airlines Inc.,BRO,"Brownsville, TX: Brownsville South Padre Island International",3.0,0.0,0.0,0.0,0.0,0.0,0.0,PHX,SEA,08:13,08:24,09:17,09:30,on-time
+2019,12,OO,SkyWest Airlines Inc.,BTV,"Burlington, VT: Burlington International",16.0,4.0,2.0,0.0,2.0,32.0,0.0,ATL,LAX,21:18,21:20,22:51,23:14,delayed
+2019,12,OO,SkyWest Airlines Inc.,CAE,"Columbia, SC: Columbia Metropolitan",2.0,0.0,0.0,0.0,0.0,0.0,0.0,JFK,DEN,01:11,01:15,02:29,02:32,on-time
+2019,12,OO,SkyWest Airlines Inc.,CLL,"College Station/Bryan, TX: Easterwood Field",26.0,2.0,1.0,0.0,0.0,30.0,0.0,DEN,SEA,07:34,07:40,09:17,09:23,on-time
+2019,12,OO,SkyWest Airlines Inc.,COD,"Cody, WY: Yellowstone Regional",2.0,1.0,1.0,0.0,0.0,19.0,0.0,PHX,SEA,14:48,14:52,16:23,16:53,delayed
+2019,12,OO,SkyWest Airlines Inc.,CWA,"Mosinee, WI: Central Wisconsin",2.0,0.0,0.0,0.0,0.0,0.0,0.0,PHX,ORD,07:11,07:26,08:13,08:15,on-time
+2019,12,OO,SkyWest Airlines Inc.,DRO,"Durango, CO: Durango La Plata County",18.0,3.0,2.0,0.0,0.0,96.0,0.0,ATL,DFW,06:26,06:41,07:27,07:49,delayed
+2019,12,OO,SkyWest Airlines Inc.,GRK,"Killeen, TX: Robert Gray AAF",2.0,0.0,0.0,0.0,0.0,0.0,0.0,SEA,ORD,08:35,08:42,10:28,10:31,on-time
+2019,12,OO,SkyWest Airlines Inc.,HOU,"Houston, TX: William P Hobby",5.0,0.0,0.0,0.0,0.0,0.0,0.0,SFO,MIA,21:28,21:38,23:19,23:42,delayed
+2019,12,OO,SkyWest Airlines Inc.,JAX,"Jacksonville, FL: Jacksonville International",10.0,2.0,1.0,0.0,1.0,96.0,0.0,SEA,ATL,08:34,08:37,09:34,09:55,delayed
+2019,12,OO,SkyWest Airlines Inc.,RSW,"Fort Myers, FL: Southwest Florida International",1.0,0.0,0.0,0.0,0.0,0.0,0.0,SEA,PHX,22:29,22:29,23:37,23:45,on-time
+2019,12,OO,SkyWest Airlines Inc.,SRQ,"Sarasota/Bradenton, FL: Sarasota/Bradenton International",1.0,0.0,0.0,0.0,0.0,0.0,0.0,SEA,DFW,20:33,20:44,22:04,22:07,on-time
+2019,12,OO,SkyWest Airlines Inc.,TLH,"Tallahassee, FL: Tallahassee International",10.0,3.0,2.0,0.0,0.0,138.0,0.0,LAX,ATL,02:14,02:24,03:33,03:50,delayed
+2019,12,UA,United Air Lines Inc.,MKE,"Milwaukee, WI: General Mitchell International",18.0,0.0,0.0,0.0,0.0,0.0,0.0,SFO,MIA,09:39,09:51,10:52,10:58,on-time
+2019,12,UA,United Air Lines Inc.,OKC,"Oklahoma City, OK: Will Rogers World",1.0,0.0,0.0,0.0,0.0,0.0,0.0,JFK,DEN,06:28,06:39,08:01,08:21,delayed
+2019,12,UA,United Air Lines Inc.,RDM,"Bend/Redmond, OR: Roberts Field",3.0,0.0,0.0,0.0,0.0,0.0,0.0,DFW,LAX,04:39,04:47,06:15,06:41,delayed
+2019,12,UA,United Air Lines Inc.,SYR,"Syracuse, NY: Syracuse Hancock International",24.0,1.0,0.0,0.0,1.0,0.0,0.0,ORD,PHX,02:39,02:43,04:02,04:19,delayed
+2019,12,9E,Endeavor Air Inc.,ALB,"Albany, NY: Albany International",6.0,1.0,0.0,0.0,1.0,0.0,0.0,JFK,SEA,18:22,18:28,19:57,20:00,on-time
+2019,12,9E,Endeavor Air Inc.,CRW,"Charleston/Dunbar, WV: Yeager",4.0,0.0,0.0,0.0,0.0,0.0,0.0,LAX,PHX,14:52,15:04,16:38,16:55,delayed
+2019,12,9E,Endeavor Air Inc.,CSG,"Columbus, GA: Columbus Airport",80.0,4.0,3.0,0.0,1.0,144.0,0.0,JFK,DEN,13:13,13:23,15:01,15:27,delayed
+2019,12,9E,Endeavor Air Inc.,HRL,"Harlingen/San Benito, TX: Valley International",11.0,1.0,1.0,0.0,0.0,53.0,0.0,JFK,ATL,15:44,15:44,17:42,18:01,delayed
+2019,12,9E,Endeavor Air Inc.,ILM,"Wilmington, NC: Wilmington International",9.0,0.0,0.0,0.0,0.0,0.0,0.0,ATL,SFO,19:14,19:20,20:15,20:42,delayed
+2019,12,9E,Endeavor Air Inc.,MCO,"Orlando, FL: Orlando International",20.0,0.0,0.0,0.0,0.0,0.0,0.0,SFO,LAX,08:37,08:48,10:32,10:47,on-time
+2019,12,9E,Endeavor Air Inc.,MDW,"Chicago, IL: Chicago Midway International",1.0,0.0,0.0,0.0,0.0,0.0,0.0,SEA,PHX,09:14,09:26,10:30,10:53,delayed
+2019,12,9E,Endeavor Air Inc.,MOT,"Minot, ND: Minot International",19.0,1.0,0.0,0.0,0.0,0.0,0.0,JFK,ORD,09:56,09:59,11:45,11:49,on-time
+2019,12,9E,Endeavor Air Inc.,MSY,"New Orleans, LA: Louis Armstrong New Orleans International",1.0,0.0,0.0,0.0,0.0,0.0,0.0,SFO,DEN,09:18,09:23,10:45,10:55,on-time
+2019,12,9E,Endeavor Air Inc.,PHF,"Newport News/Williamsburg, VA: Newport News/Williamsburg International",68.0,2.0,0.0,0.0,0.0,0.0,0.0,DEN,LAX,05:34,05:34,07:15,07:15,on-time
+2019,12,9E,Endeavor Air Inc.,ROA,"Roanoke, VA: Roanoke Blacksburg Regional Woodrum Field",58.0,2.0,1.0,0.0,1.0,44.0,0.0,DEN,ATL,21:30,21:36,22:56,23:10,on-time
+2019,12,AS,Alaska Airlines Inc.,ADK,"Adak Island, AK: Adak",8.0,1.0,0.0,0.0,0.0,0.0,0.0,DEN,SFO,17:03,17:06,18:49,19:04,on-time
+2019,12,AS,Alaska Airlines Inc.,ATL,"Atlanta, GA: Hartsfield-Jackson Atlanta International",62.0,6.0,3.0,0.0,0.0,238.0,0.0,DEN,ORD,09:40,09:55,10:56,10:59,on-time
+2019,12,AS,Alaska Airlines Inc.,OTZ,"Kotzebue, AK: Ralph Wien Memorial",60.0,4.0,2.0,1.0,1.0,113.0,29.0,ORD,DFW,01:27,01:28,02:38,02:51,on-time
+2019,12,B6,JetBlue Airways,BZN,"Bozeman, MT: Bozeman Yellowstone International",6.0,1.0,0.0,0.0,0.0,0.0,0.0,MIA,ORD,10:50,10:57,12:16,12:35,delayed
+2019,12,DL,Delta Air Lines Inc.,AGS,"Augusta, GA: Augusta Regional at Bush Field",44.0,0.0,0.0,0.0,0.0,0.0,0.0,DEN,ORD,06:19,06:19,07:42,08:05,delayed
+2019,12,DL,Delta Air Lines Inc.,AVL,"Asheville, NC: Asheville Regional",40.0,1.0,1.0,0.0,0.0,18.0,0.0,ORD,ATL,05:23,05:26,07:13,07:42,delayed
+2019,12,DL,Delta Air Lines Inc.,AVP,"Scranton/Wilkes-Barre, PA: Wilkes Barre Scranton International",29.0,1.0,1.0,0.0,0.0,522.0,0.0,ORD,DFW,02:35,02:47,04:17,04:17,on-time
+2019,12,DL,Delta Air Lines Inc.,BTV,"Burlington, VT: Burlington International",2.0,0.0,0.0,0.0,0.0,0.0,0.0,DEN,SFO,21:52,22:07,23:43,00:08,delayed
+2019,12,DL,Delta Air Lines Inc.,CHO,"Charlottesville, VA: Charlottesville Albemarle",32.0,3.0,3.0,0.0,0.0,435.0,0.0,SEA,LAX,22:26,22:37,00:08,00:12,on-time
+2019,12,DL,Delta Air Lines Inc.,GRB,"Green Bay, WI: Green Bay Austin Straubel International",30.0,2.0,1.0,0.0,0.0,57.0,0.0,MIA,DFW,15:03,15:08,16:16,16:38,delayed
+2019,12,DL,Delta Air Lines Inc.,LFT,"Lafayette, LA: Lafayette Regional Paul Fournet Field",18.0,1.0,1.0,0.0,0.0,109.0,0.0,SEA,SFO,09:25,09:30,11:08,11:23,on-time
+2019,12,DL,Delta Air Lines Inc.,LGB,"Long Beach, CA: Long Beach Airport",20.0,3.0,1.0,0.0,2.0,28.0,0.0,DFW,DEN,15:20,15:20,16:53,17:03,on-time
+2019,12,DL,Delta Air Lines Inc.,MHT,"Manchester, NH: Manchester-Boston Regional",1.0,0.0,0.0,0.0,0.0,0.0,0.0,ORD,SFO,13:45,13:59,15:22,15:24,on-time
+2019,12,DL,Delta Air Lines Inc.,MTJ,"Montrose/Delta, CO: Montrose Regional",10.0,0.0,0.0,0.0,0.0,0.0,0.0,DEN,LAX,11:53,11:57,13:21,13:26,on-time
+2019,12,DL,Delta Air Lines Inc.,STX,"Christiansted, VI: Henry E. Rohlsen",12.0,2.0,2.0,0.0,0.0,126.0,0.0,LAX,DEN,17:02,17:09,18:27,18:46,delayed
+2019,12,DL,Delta Air Lines Inc.,XNA,"Fayetteville, AR: Northwest Arkansas Regional",36.0,1.0,1.0,0.0,0.0,17.0,0.0,SEA,SFO,20:26,20:39,22:03,22:07,on-time
+2019,12,EV,ExpressJet Airlines LLC,AVL,"Asheville, NC: Asheville Regional",12.0,1.0,0.0,0.0,1.0,0.0,0.0,SEA,ATL,09:23,09:34,11:09,11:12,on-time
