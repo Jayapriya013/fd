@@ -1,47 +1,57 @@
 import streamlit as st
 import pandas as pd
+import numpy as np
 
-# Helper function to convert HHMM to minutes
-def hhmm_to_minutes(hhmm):
-    hhmm = str(hhmm).zfill(4)
-    hours = int(hhmm[:2])
-    minutes = int(hhmm[2:])
-    return hours * 60 + minutes
+# Title
+st.title("✈️ Flight Arrival Delay Predictor (Dataset-Based)")
 
-# Main app
-st.title("Flight Delay Predictor 🚀")
+# Load dataset
+@st.cache_data
+def load_data():
+    return pd.read_csv("/content/drive/My Drive/flight delay prediction/final_airline_times_HHMM.csv') # Replace with your dataset file name
 
-uploaded_file = st.file_uploader('/content/drive/My Drive/flight delay prediction/final_airline_times_HHMM.csv') 
+df = load_data()
 
-if uploaded_file is not None:
-    df = pd.read_csv(uploaded_file)
+# User Inputs
+st.subheader("Enter Flight Details")
 
-    # Display raw data
-    st.subheader("Raw Data Preview")
-    st.write(df.head())
+sched_dep = st.text_input("Scheduled Departure Time (HH:MM)", "")
+actual_arr = st.text_input("Actual Arrival Time (HH:MM)", "")
 
-    # Ensure required columns are present
-    required_cols = ['Actual Arrival Time', 'Scheduled Departure Time', 'Actual Departure Time']
-    if not all(col in df.columns for col in required_cols):
-        st.error(f"CSV must contain columns: {required_cols}")
+# Convert HH:MM to total minutes from midnight
+def convert_to_minutes(time_str):
+    try:
+        if ":" not in time_str:
+            raise ValueError
+        h, m = map(int, time_str.strip().split(":"))
+        if not (0 <= h < 24 and 0 <= m < 60):
+            raise ValueError
+        return h * 60 + m
+    except:
+        return np.nan
+
+if st.button("Predict Delay"):
+    sched_dep_min = convert_to_minutes(sched_dep)
+    actual_arr_min = convert_to_minutes(actual_arr)
+
+    if np.isnan(sched_dep_min) or np.isnan(actual_arr_min):
+        st.error("❌ Please enter valid times in HH:MM format.")
     else:
-        # Convert times to minutes
-        df['Scheduled Departure (mins)'] = df['Scheduled Departure Time'].apply(hhmm_to_minutes)
-        df['Actual Departure (mins)'] = df['Actual Departure Time'].apply(hhmm_to_minutes)
-        df['Actual Arrival (mins)'] = df['Actual Arrival Time'].apply(hhmm_to_minutes)
+        # Search dataset for matching Scheduled Departure Time
+        match = df[df['ScheduledDeparture'] == sched_dep]
 
-        # Calculate delay (as difference between actual and scheduled departure)
-        df['Departure Delay (mins)'] = df['Actual Departure (mins)'] - df['Scheduled Departure (mins)']
+        if match.empty:
+            st.error("❌ No matching flight found in the dataset.")
+        else:
+            sched_arr = match.iloc[0]['ScheduledArrival']
+            sched_arr_min = convert_to_minutes(sched_arr)
 
-        # Handle crossing midnight (negative delays)
-        df['Departure Delay (mins)'] = df['Departure Delay (mins)'].apply(lambda x: x + 1440 if x < -720 else x)
+            if np.isnan(sched_arr_min):
+                st.error("❌ Invalid Scheduled Arrival Time in dataset.")
+            else:
+                arrival_delay = actual_arr_min - sched_arr_min
 
-        # Predict status
-        df['Status'] = df['Departure Delay (mins)'].apply(lambda x: 'Delayed' if x > 15 else 'On Time')
-
-        # Show results
-        st.subheader("Processed Data")
-        st.write(df[['Scheduled Departure Time', 'Actual Departure Time', 'Departure Delay (mins)', 'Status']].head())
-
-        # Allow download
-        st.download_button("Download Results", df.to_csv(index=False), "predicted_delays.csv", "text/csv")
+                if arrival_delay > 15:
+                    st.error(f"🛑 Delayed by {arrival_delay} minutes.")
+                else:
+                    st.success("✅ On-Time.")
