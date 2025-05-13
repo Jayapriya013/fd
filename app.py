@@ -8,7 +8,7 @@ st.title("✈️ Flight Arrival Delay Predictor (Dataset-Based)")
 # Load dataset
 @st.cache_data
 def load_data():
-    return pd.read_csv("/content/drive/My Drive/flight delay prediction/final_airline_times_HHMM.csv") # Replace with your dataset file name
+    return pd.read_csv("final_airline_times_HHMM(2).csv") # Replace with your dataset file name
 
 df = load_data()
 
