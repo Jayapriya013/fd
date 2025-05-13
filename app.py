@@ -2,9 +2,12 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-st.title("🛬 Flight Arrival Delay Predictor (Dataset-Based)")
+st.set_page_config(page_title="Flight Delay Predictor", layout="wide")
 
-# ✅ Load dataset from GitHub
+# Title
+st.title("✈️ Flight Arrival Delay Predictor (Dataset-Based)")
+
+# ✅ Raw GitHub CSV URL
 url = "https://raw.githubusercontent.com/Jayapriya013/fd/main/final_airline_times_HHMM%20(2).csv"
 
 @st.cache_data
@@ -13,36 +16,34 @@ def load_data():
 
 df = load_data()
 
-# Show sample
-st.write("### 📄 Sample of the Dataset")
+# Show sample data
+st.write("### 🧾 Sample of the Dataset")
 st.dataframe(df.head())
 
-# ✅ Dropdowns for more filtering
+# Dropdown values
+origins = sorted(df['origin'].dropna().unique())
+destinations = sorted(df['destination'].dropna().unique())
+carriers = sorted(df['carrier'].dropna().unique())
+years = sorted(df['year'].dropna().unique())
+
+# Flight Info Inputs
 st.subheader("📝 Enter Flight Info")
 
-# Get unique sorted values from dataset
-origins = sorted(df['Origin'].dropna().unique())
-destinations = sorted(df['Dest'].dropna().unique())
-carriers = sorted(df['Carrier'].dropna().unique())
-years = sorted(df['Year'].dropna().unique())
-airport_col = "OriginAirportName" if "OriginAirportName" in df.columns else None
+col1, col2, col3, col4 = st.columns(4)
+with col1:
+    origin = st.selectbox("Origin Airport", origins)
+with col2:
+    destination = st.selectbox("Destination Airport", destinations)
+with col3:
+    carrier = st.selectbox("Carrier", carriers)
+with col4:
+    year = st.selectbox("Year", years)
 
-origin = st.selectbox("🛫 Origin", origins)
-destination = st.selectbox("🛬 Destination", destinations)
-carrier = st.selectbox("✈️ Carrier", carriers)
-year = st.selectbox("📅 Year", years)
+# Time Inputs
+sched_dep = st.text_input("Scheduled Departure Time (HH:MM)", "")
+actual_arr = st.text_input("Actual Arrival Time (HH:MM)", "")
 
-if airport_col:
-    airports = sorted(df[airport_col].dropna().unique())
-    airport_name = st.selectbox("🏢 Airport Name", airports)
-else:
-    airport_name = None
-
-# ✅ Time inputs
-sched_dep = st.text_input("⏰ Scheduled Departure Time (HH:MM)", "")
-actual_arr = st.text_input("⏱️ Actual Arrival Time (HH:MM)", "")
-
-# ✅ Time conversion function
+# Time conversion function
 def convert_to_minutes(time_str):
     try:
         if ":" not in time_str:
@@ -54,46 +55,35 @@ def convert_to_minutes(time_str):
     except:
         return np.nan
 
-# ✅ Predict Delay
-if st.button("🔎 Predict Delay"):
+# Predict Button
+if st.button("🔍 Predict Delay"):
     sched_dep_min = convert_to_minutes(sched_dep)
     actual_arr_min = convert_to_minutes(actual_arr)
 
     if np.isnan(sched_dep_min) or np.isnan(actual_arr_min):
         st.error("❌ Please enter valid times in HH:MM format.")
     else:
-        # Filter using all selected details
+        # Filter dataset by selected fields
         match = df[
-            (df['Origin'] == origin) &
-            (df['Dest'] == destination) &
-            (df['Carrier'] == carrier) &
-            (df['Year'] == year)
+            (df['origin'] == origin) &
+            (df['destination'] == destination) &
+            (df['carrier'] == carrier) &
+            (df['year'] == year) &
+            (df['scheduled_departure_time'] == sched_dep)
         ]
-        
-        if airport_name:
-            match = match[match[airport_col] == airport_name]
 
         if match.empty:
             st.error("❌ No matching flight found in the dataset.")
         else:
-            # Match with exact scheduled departure
-            exact_match = match[match['ScheduledDeparture'] == sched_dep]
-
-            if exact_match.empty():
-                st.warning("⚠️ No exact departure match. Showing first match based on other filters.")
-                match_row = match.iloc[0]
-            else:
-                match_row = exact_match.iloc[0]
-
-            sched_arr = match_row['ScheduledArrival']
+            sched_arr = match.iloc[0]['scheduled_arrival_time']
             sched_arr_min = convert_to_minutes(sched_arr)
 
             if np.isnan(sched_arr_min):
                 st.error("❌ Invalid Scheduled Arrival Time in dataset.")
             else:
-                delay = actual_arr_min - sched_arr_min
+                arrival_delay = actual_arr_min - sched_arr_min
 
-                if delay > 15:
-                    st.error(f"🛑 Flight delayed by {delay} minutes.")
+                if arrival_delay > 15:
+                    st.error(f"🛑 Flight is **Delayed** by {arrival_delay} minutes.")
                 else:
-                    st.success("✅ Flight is on time or within 15 minutes.")
+                    st.success("✅ Flight is **On Time**.")
