@@ -12,15 +12,23 @@ def load_data():
 import streamlit as st
 
 # Correct raw URL from your GitHub
-url = "https://raw.githubusercontent.com/jayapriya013/fd/main/final_airline_times_HHMM%20(2).csv"
+import streamlit as st
+import pandas as pd
+
+# ✅ Correct raw GitHub CSV URL
+url = "https://raw.githubusercontent.com/Jayapriya013/fd/main/final_airline_times_HHMM%20(2).csv"
 
 @st.cache_data
 def load_data():
     return pd.read_csv(url)
 
 df = load_data()
-/Jayapriya013/fd/blob/main/final_airline_times_HHMM(2).csv")
-df = load_data()
+
+st.title("🛬 Flight Arrival Delay Predictor (Dataset-Based)")
+
+st.write("### Sample Data")
+st.dataframe(df.head())
+
 
 # User Inputs
 st.subheader("Enter Flight Details")
